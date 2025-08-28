@@ -85,4 +85,4 @@ Observér worflowet steppet "Say Hello"
 
 
 ## Aktiviteter
-Gennemfør: [Hello GitHub Actions](https://github.com/skills/hello-github-actions)
+Gennemfør [opgaven](opgave.md) til i dag.
