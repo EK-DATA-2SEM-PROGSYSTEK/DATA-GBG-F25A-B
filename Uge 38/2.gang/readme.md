@@ -11,6 +11,7 @@ Se disse videoer (total : 14 min):
 [Configure Qodana with GitHub Actions](https://www.youtube.com/watch?v=JrWQkqaXZFQ)
 
 ## Læringsmål
+- Anvende Qodana i en CI pipeline
 
 ## Indhold
 
