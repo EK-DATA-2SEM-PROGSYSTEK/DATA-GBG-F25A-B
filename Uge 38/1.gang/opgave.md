@@ -102,6 +102,9 @@ Bygger projektet:
 - -B = batch mode (ingen interaktiv input).
 - package = bygger projektet og laver en JAR-fil i target/.
 
+``` --file pom.xml ``` er ikke nødvendigt, hvis pom.xml ligger i roden.  
+```-B``` er heller ikke strengt nødvendigt, men bruges ofte i CI for at være helt sikker på, at Maven kører non-interaktivt.
+
 ## Rettelser til maven.yml  
 - slet 'optional' sektkionen
 - ændrer java 17 til java 21
