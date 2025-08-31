@@ -8,7 +8,8 @@ I bliver i dag introduceret til sproget SQL for at hente data fra en database vh
 Dagen bliver en workshop med øvelser, så afprøv basisdelen i W3Schools introduktion til SQL inden undervisningen starter. Den behøver ingen installation på egen maskine.
 
 ## Forberedelse
-[Installér MySQL Server MySQL Community Server og MySQL WorkBench](https://www.youtube.com/watch?v=AaISTiooIVU)  
+Installér MySQL Server MySQL Community Server og MySQL WorkBench.  
+[How to Download & Install MySQL on Windows 10/11 | Quick & Easy Tutorial](https://www.youtube.com/watch?v=AaISTiooIVU)  
 NB! Det er vigtigt at du husker dit MySql root password, da det er meget besværligt at ændre, hvis du glemmer det. 
 
 Se disse videoer (total : x):  
