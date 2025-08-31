@@ -138,4 +138,5 @@ INSERT = Tilføj (Create)
 UPDATE = Ret (Update)  
 DELETE = Fjern (Delete)  
 
-## Aktiviteter
+## Aktiviteter  
+Løs [opgaven](opgave.md) til i dag
