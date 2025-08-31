@@ -24,5 +24,118 @@ Arbejd med W3Schools SQL Tutorials (til og med WHERE clause)
 - At kunne bruge SQL 'SELECT' statement til forespørgsler på data fra en tabel.
 
 ## Indhold
+# Introduktion til SQL  
+
+## Hvad er SQL?  
+
+**SQL** står for *Structured Query Language* og er det mest udbredte sprog til at arbejde med databaser.  
+Det bruges til at:  
+
+- **Hente data** fra en database (f.eks. finde alle kunder i København)  
+- **Indsætte data** (f.eks. tilføje en ny ordre)  
+- **Opdatere data** (f.eks. ændre en kundes telefonnummer)  
+- **Slette data** (f.eks. slette en ordre)  
+- **Administrere databaser** (f.eks. oprette tabeller eller brugere)  
+
+SQL fungerer på næsten alle relationelle databasesystemer (f.eks. MySQL, PostgreSQL, Oracle og SQL Server), og sproget er standardiseret, så grundlæggende kommandoer er ens på tværs af systemer.  
+
+De mest centrale kommandoer i SQL kaldes ofte for **CRUD**:  
+- **C**reate → `INSERT`  
+- **R**ead → `SELECT`  
+- **U**pdate → `UPDATE`  
+- **D**elete → `DELETE`  
+
+SQL er altså det værktøj, vi bruger til at kommunikere med databaser – på samme måde som vi bruger dansk eller engelsk til at kommunikere med hinanden.  
+
+---
+
+## Eksempel på en simpel forespørgsel  
+
+Forestil dig, at vi har en tabel, der hedder `employees`, med oplysninger om medarbejdere:  
+
+| empno | name     | job        | salary |
+|-------|----------|------------|--------|
+| 7369  | SMITH    | CLERK      | 800    |
+| 7499  | ALLEN    | SALESMAN   | 1600   |
+| 7521  | WARD     | SALESMAN   | 1250   |
+
+Hvis vi vil hente alle oplysninger om medarbejderne, skriver vi:  
+
+```sql
+SELECT * 
+FROM employees;
+```
+Hvis vi kun vil se navne og løn for dem, der tjener mere end 1300, skriver vi:  
+```sql
+SELECT name, salary
+FROM employees
+WHERE salary > 1300;
+```
+# SQL Cheat Sheet – de mest brugte kommandoer  
+
+Dette cheat sheet giver et hurtigt overblik over de mest almindelige SQL-kommandoer.  
+
+---
+
+## 1. Hent data – `SELECT`  
+```sql
+-- Hent alle kolonner fra en tabel
+SELECT * 
+FROM employees;
+
+-- Hent bestemte kolonner
+SELECT name, salary 
+FROM employees;
+
+-- Hent ansatte med løn over 2000
+SELECT name, salary 
+FROM employees
+WHERE salary > 2000;
+
+-- Sorter resultater
+SELECT name, salary 
+FROM employees
+ORDER BY salary DESC;
+```
+## 2. Indsæt data – INSERT
+```sql
+-- Indsæt en ny række i tabellen
+INSERT INTO employees (empno, name, job, salary)
+VALUES (7900, 'JENSEN', 'CLERK', 1500);
+```
+## 3. Opdater data – UPDATE
+```sql
+-- Opdater løn for en bestemt medarbejder
+UPDATE employees
+SET salary = 1800
+WHERE name = 'JENSEN';
+```
+## 4. Slet data – DELETE
+```sql
+-- Slet en medarbejder
+DELETE FROM employees
+WHERE name = 'JENSEN';
+```
+
+## 5. Aggregatfunktioner (arbejde med grupper af data)
+```sql
+-- Antal medarbejdere
+SELECT COUNT(*) 
+FROM employees;
+
+-- Gennemsnitsløn i afdelingen
+SELECT AVG(salary) 
+FROM employees
+WHERE deptno = 20;
+
+-- Højeste løn
+SELECT MAX(salary) 
+FROM employees;
+```
+## Opsummering  
+SELECT = Læs (Read)  
+INSERT = Tilføj (Create)  
+UPDATE = Ret (Update)  
+DELETE = Fjern (Delete)  
 
 ## Aktiviteter
