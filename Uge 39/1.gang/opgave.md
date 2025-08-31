@@ -1,6 +1,6 @@
 # SQL SELECT opgaver  
 
-Følgende øvelser forudsætter, at SQL Scriptet `emp_dept_25.sql` er kørt (opretter databasen kaldet **EMP_DEPT_25**).  
+Følgende øvelser forudsætter, at SQL Scriptet [emp_dept_25.sql](resources/emp_dept_25.sql) er kørt (opretter databasen kaldet **EMP_DEPT_25**).  
 
 ---
 
