@@ -1,4 +1,4 @@
-# Opgave: tilføj Thymeleaf condtions til thymeleaf-demo-projektet
+# Opgave: tilføj Thymeleaf conditions til thymeleaf-demo-projektet
 
 I denne opgave skal I ændre i koden i thymeleaf-demo-projektet, så der også udskrives en tekst for hver person som siger om vedkommende er gammel nok til at køre bil.
 
