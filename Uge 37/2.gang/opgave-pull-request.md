@@ -157,6 +157,10 @@ to enable GitHub CLI to automatically store your Git credentials.
         ```bash
          git branch -d feature/add-description
       ```
+    - Delete the remote tracking branch by running the command:
+      ```bash
+       git fetch origin --prune
+      ```
 
 
  

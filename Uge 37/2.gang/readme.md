@@ -24,6 +24,8 @@ Se videoer:
 
 [How to merge a pull request | Introduction to GitHub](https://youtu.be/FDXSgyDGmho?feature=shared)
 
+[IntelliJ IDEA: Resolving Merge Conflicts in Git](https://youtu.be/WgipWkaU2MM?feature=shared)
+
 ---
 ## Læringsmål
 - At kunne anvende GitHub flow workflow.
@@ -32,6 +34,13 @@ Se videoer:
 ---
 ## Indhold
 - Forberedelsen (Parvis: kommentarer og spørgsmål)
+- GitHub flow workflow
+- Opgave: Pull request
+- Opsummering af opgaven
+- Merge conflicts
+- Opgave: Merge conflict
+- Opsummering af opgaven
+
 ---
 ### GitHub flow workflow
 [GitHub Flow](https://docs.github.com/en/get-started/using-github/github-flow) "is a lightweight, branch-based workflow"
@@ -64,6 +73,52 @@ to collaborate on projects.
 
 ![GitHub flow visualiseret](assets/github-flow-visualisation.png)
 
+---
+
+### Opgave: Pull request
+
+Lav opgaven [Pull request](opgave-pull-request.md).
+
+---
+
+### Opsummering af opgaven
+
+---
+
+### Merge conflicts
+
+En merge-konflikt opstår, når der laves ændringer i den samme del af en fil på to forskellige grene (branches).
+
+Git ved ikke, hvilke ændringer der skal anvendes, og konflikten skal løses af udvikleren, før der kan laves et commit, 
+eller før en pull request kan merges.
+
+---
+
+### Merge conflicts
+
+Hvad viser diagrammet?
+
+Kan en merge konflikt opstå?
+
+<img src="assets/possible-merge-conflict.png" alt="Possible merge conflict" width="500">
+
+Merge-konflikter bør opdages og løses i den lokale repo – inden der forsøges at oprette en pull request.
+
+---
+
+### Merge conflicts
+
+
+
+
+---
+### Opgave: Merge conflict
+
+Lav opgaven [Merge conflict](opgave-merge-conflict.md).
+
+---
+
+### Opsummering af opgaven
 
 ---
 
