@@ -35,3 +35,11 @@ getUsersById(int userID) og updateUser(User user).
 
 Lav en ny html-fil som hedder "user-edit-form.html". Den skal stort set have samme form i sig som user-registration-form.html, men dens action skal have et andet endpoint: th:action="@{/user/update}".
 
+
+Den skal også have denne linje:
+```html
+<input type="hidden" th:field="*{userId}"/>
+```
+
+Den skal sættes som den første linje i edit-formen.
+
