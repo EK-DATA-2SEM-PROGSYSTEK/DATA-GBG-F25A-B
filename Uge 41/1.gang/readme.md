@@ -15,7 +15,7 @@ Hvorfor H2 i tests?
 - Ingen lokal serverdatabase at installere/vedligeholde
 - Kompatibel med JDBC API (men der er små forskelle i sql syntaks ift f.eks. MySql), se [MySQL vs H2](https://www.geeksforgeeks.org/blogs/mysql-vs-h2/)
   
-Vi bruger kun H2 i tests. Produktion/dev kan fortsat køre på din “rigtige” DB (fx MySQL).
+Vi bruger kun H2 i tests. Produktion/dev skal fortsat køre på den “rigtige” DB (fx MySQL).
 
 ### H2 dependency i pom.xml
 H2 databasen benyttes ved at inkludere denne dependency i pom.xml 
