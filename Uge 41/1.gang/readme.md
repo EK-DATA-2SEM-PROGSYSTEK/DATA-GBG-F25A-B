@@ -20,7 +20,7 @@ Fordele ved at benytte H2 i tests:
 - Lynhurtig opstart og nedlukning
 - Ren database ved hvert test-run
 - Ingen lokal serverdatabase at installere/vedligeholde
-- Kompatibel med JDBC API (men der er små forskelle i sql syntaks ift f.eks. MySql), se [MySQL vs H2](https://www.geeksforgeeks.org/blogs/mysql-vs-h2/)
+- Kompatibel med JDBC API (men der er små forskelle i sql syntaks ift f.eks. MySql, se [MySQL vs H2](https://www.geeksforgeeks.org/blogs/mysql-vs-h2/))
   
 Vi bruger kun H2 i tests. Produktion/dev skal fortsat køre på den “rigtige” DB (fx MySQL).
 
