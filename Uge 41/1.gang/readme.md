@@ -4,7 +4,9 @@
 I dag skal vi se på, hvordan man bruger H2 databasen til integrationstest
 
 ## Forberedelse
-Se disse videoer:  
+Se denne video:  
+[Spring Boot H2 Embedded Database Example - Java Junit Test H2 Database Tutorial](https://www.youtube.com/watch?v=ixIxXRoCr5w)  
+Videoen er ikke helt up-to-date, men giver et god introduktion - inklusiv en naturoplevelse :smiley:
 
 
 ## Læringsmål
