@@ -8,8 +8,8 @@
 
 ## Indhold
 ### Hvad er H2?
-H2 er en lille, hurtig, Java-baseret relationel database, der kan køre in-memory (eller som fil) inde i din JVM-proces. Det gør den ideel til hurtige, deterministiske tests uden ekstern opsætning.
-Hvorfor H2 i tests?
+H2 er en lille, hurtig, Java-baseret relationel database, der kan køre in-memory (eller som fil) inde i din JVM-proces. Det gør den ideel til hurtige, integrationstests uden ekstern opsætning.  
+Fordele ved at benytte H2 i tests:
 - Lynhurtig opstart og nedlukning
 - Ren database ved hvert test-run
 - Ingen lokal serverdatabase at installere/vedligeholde
