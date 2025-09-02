@@ -10,6 +10,8 @@ Videoen er ikke helt up-to-date, men giver et god introduktion - inklusiv en nat
 
 
 ## Læringsmål
+- at kunne forklare fordele ved at benytte H2 til test formål
+- at kunne opsætte et testmiljø i Spring boot med anvendelse af H2
 
 ## Indhold
 ### Hvad er H2?
