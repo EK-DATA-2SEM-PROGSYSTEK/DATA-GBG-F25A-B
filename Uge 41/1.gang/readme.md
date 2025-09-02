@@ -1,8 +1,11 @@
-# Test: Mockito + H2
+# Integrationstest med H2 database
 
 ## Beskrivelse
+I dag skal vi se på, hvordan man bruger H2 databasen til integrationstest
 
 ## Forberedelse
+Se disse videoer:  
+
 
 ## Læringsmål
 
@@ -90,33 +93,16 @@ class PersonRepositoryTest {
 }
 ```
 
-### Mappestruktur
+### Mappestruktur for testmiljø
 ```text
-your-project/
-├─ README.md
-├─ pom.xml
-├─ .gitignore
-└─ src/
-   ├─ main/
-   │  ├─ java/
-   │  │  └─ com/
-   │  │     └─ example/
-   │  │        └─ demo/
-   │  │           └─ person/
-   │  │              ├─ Person.java                  # POJO-model (getters/setters)
-   │  │              ├─ PersonRowMapper.java         # Selvstændig RowMapper (ingen lambdas)
-   │  │              └─ PersonRepository.java        # Repository med JdbcTemplate
-   │  └─ resources/
-   │     └─ application.properties                   # Prod/dev (fx MySQL), valgfri
-   └─ test/
+
+    ─ test/
       ├─ java/
       │  └─ com/
       │     └─ example/
-      │        └─ demo/
-      │           └─ person/
-      │              ├─ PersonRepositoryTest.java    # @SpringBootTest + @Sql
-      │              │                                #  - metode: returnsSeededRowsInOrder (uden streams)
-      │              └─ PersonRepositoryJdbcSliceTest.java  # VALGFRI @JdbcTest + @Sql (hurtigere slice)
+      │         └─ person/
+      │              └─ PersonRepositoryTest.java    # @SpringBootTest + @Sql
+      │              
       └─ resources/
          ├─ application-test.properties              # H2: jdbc:h2:mem:...;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
          └─ h2init.sql                               # DDL + seed-data (køres før hver test via @Sql)
