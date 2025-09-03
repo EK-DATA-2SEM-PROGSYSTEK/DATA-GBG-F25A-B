@@ -54,6 +54,12 @@ spring.datasource.password=
 logging.level.org.springframework.jdbc.core.JdbcTemplate=DEBUG
 logging.level.org.springframework.jdbc.core.StatementCreatorUtils=TRACE
 ```
+```DB_CLOSE_DELAY=-1```  
+Denne parameter betyder, at databasen ikke lukkes automatisk, selvom den sidste forbindelse til den bliver lukket.  
+```DB_CLOSE_ON_EXIT=FALSE```  
+Denne parameter sikrer, at databasen ikke lukker, når JVM'en (Java Virtual Machine) afsluttes.  
+
+I et testmiljø bruges disse parametre for at sikre, at den indlejrede H2-database forbliver tilgængelig og i en kendt tilstand gennem hele test-livscyklussen, især når man kører en suite af integrationstests.  
 ### Test klasse
 
 Test klassen placeres i mappen /test/java/com/example/person_h2
