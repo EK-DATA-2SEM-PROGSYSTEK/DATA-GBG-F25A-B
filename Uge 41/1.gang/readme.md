@@ -41,7 +41,8 @@ Der oprettes automatisk en database ´testdb’ med username = sa og password = 
 Eksempelprojekt: [person_h2]()
 
 ### application-test.properties
-Vi laver en selvstændig apllication-test.properties i test miljøet, der indeholde opsætningsparametre for H2 databasen:
+Vi laver en selvstændig apllication-test.properties i test miljøet, der indeholde opsætningsparametre for H2 databasen.  
+Filen placeres i /test/resources mappen
 
 ```
 spring.datasource.url=jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
@@ -54,6 +55,8 @@ logging.level.org.springframework.jdbc.core.JdbcTemplate=DEBUG
 logging.level.org.springframework.jdbc.core.StatementCreatorUtils=TRACE
 ```
 ### Test klasse
+
+Test klassen placeres i mappen /test/java/com/example/person_h2
 ```java
 package com.example.person_h2;
 
@@ -103,6 +106,24 @@ Disse tre annotations bruges ofte sammen til at skabe et robust og pålideligt i
 - @SpringBootTest starter en fuld Spring-kontekst.
 - @ActiveProfiles("test") sikrer, at den starter med en konfiguration, der er skræddersyet til tests (f.eks. en in-memory database).
 - @Sql klargør databasen ved at køre et script, der opretter skema og indsætter testdata, så testen kan udføres mod et kendt datasæt.
+
+## h2init.sql
+Sql initialiseringsfilen åplaceres i /test/resources mappen.
+```sql
+DROP TABLE IF EXISTS person;
+
+CREATE TABLE person (
+                        id INT PRIMARY KEY,
+                        name VARCHAR(100) NOT NULL,
+                        email VARCHAR(150),
+                        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
+-- init-data
+INSERT INTO person (id, name, email) VALUES (1, 'Alice', 'alice@example.com');
+INSERT INTO person (id, name, email) VALUES (2, 'Bob',   'bob@example.com');
+```
 ### Mappestruktur for testmiljø
 ```text
 
@@ -110,12 +131,12 @@ Disse tre annotations bruges ofte sammen til at skabe et robust og pålideligt i
       ├─ java/
       │  └─ com/
       │     └─ example/
-      │         └─ person/
+      │         └─ person_h2/
       │              └─ PersonRepositoryTest.java    # @SpringBootTest + @Sql
       │              
       └─ resources/
-         ├─ application-test.properties              # H2: jdbc:h2:mem:...;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
-         └─ h2init.sql                               # DDL + seed-data (køres før hver test via @Sql)
+         ├─ application-test.properties              # H2 properties
+         └─ h2init.sql                               # DDL + init-data (køres før hver test via @Sql)
 ```
 
 ## Aktiviteter
