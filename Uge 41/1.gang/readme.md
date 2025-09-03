@@ -36,7 +36,9 @@ H2 databasen benyttes ved at inkludere denne dependency i pom.xml
 ```
 
 <scope>test</scope> angiver at databasen kun skal være tilgængelig i testmiljøet
-Der oprettes automatisk en database ´testdb’ med username = sa og password = ""
+Der oprettes automatisk en database ´testdb’ med username = sa og password = ""  
+
+Eksempelprojekt: [person_h2]()
 
 ### application-test.properties
 Vi laver en selvstændig apllication-test.properties i test miljøet, der indeholde opsætningsparametre for H2 databasen:
@@ -96,7 +98,11 @@ class PersonRepositoryTest {
     }
 }
 ```
+Disse tre annotations bruges ofte sammen til at skabe et robust og pålideligt integrationstestmiljø.
 
+- @SpringBootTest starter en fuld Spring-kontekst.
+- @ActiveProfiles("test") sikrer, at den starter med en konfiguration, der er skræddersyet til tests (f.eks. en in-memory database).
+- @Sql klargør databasen ved at køre et script, der opretter skema og indsætter testdata, så testen kan udføres mod et kendt datasæt.
 ### Mappestruktur for testmiljø
 ```text
 
