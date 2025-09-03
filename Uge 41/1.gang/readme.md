@@ -113,3 +113,9 @@ class PersonRepositoryTest {
 ```
 
 ## Aktiviteter
+
+- Fork projektet [person_h2](https://github.com/EK-DATA-2SEM-PROGSYSTEK/person_h2)    
+- Klon dernæst projektet til din laptop.  
+- Afprøv test lokalt og observér detailbeskeder i log vindue  
+- Opret en CI pipeline lokalt i en .yml fil i .github/workflows
+- Push til Github og observér afviling af job
