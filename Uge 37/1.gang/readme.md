@@ -79,8 +79,8 @@ Eksempel:
 ```bash 
 touch /c/Users/student/projekter/noter.txt
 ```  
-Denne kommando opretter en fil direkte i mappen projekter på C-drevet.
-
+Denne kommando opretter en fil ```noter.txt``` i mappen ```/Users/student/projekter``` på C-drevet.
+ 
 ## Shell ##
 <img src="assets/shell.png" alt="Alt Text" width="300">  
 Definition: En shell er et kommandotolkningsprogram, der giver brugeren mulighed for at interagere med operativsystemet ved hjælp af kommandoer.  
