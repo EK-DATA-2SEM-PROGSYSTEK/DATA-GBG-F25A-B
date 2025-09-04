@@ -119,8 +119,8 @@ Når git init køres oprettes der et lolalt git repo og metadata om repoet finde
 
 
 
+## Aktiviteter
 
-[What Is Git Bash; Working with Git Bash Commands](https://phoenixnap.com/kb/what-is-git-bash)  
 
 
 
