@@ -36,7 +36,7 @@ sker følgende:
 ## Fork starter projekt
 
 Fork starter projektet til jeres egne GitHub repo fra:
-[Link to coffee-thyme-starter projekt]()
+[Link to coffee-thyme-starter projekt](https://github.com/EK-DATA-2SEM-PROGSYSTEK/coffee-thyme-starter.git)
 
 Læs projekt koden og forklar til hinanden hvordan applikation fungerer.
 
