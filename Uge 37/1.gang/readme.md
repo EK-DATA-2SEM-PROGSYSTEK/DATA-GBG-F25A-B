@@ -94,7 +94,7 @@ Definition: En shell er et kommandotolkningsprogram, der giver brugeren mulighed
 #### Bash Shell ####
 Bash shell installeres sammen med git og findes typisk her:  
 ```bash
-C:\Program Files\Git\git-bash
+C:\Program Files\Git\bin\bash.exe
 ```
 Udover git kommandoer understøtter git-bash en lang række kommandore til interaktion med operativsystemets filsystem.  
 Se oversigt og eksempler her: [30 Bash Commands Cheat Sheet](https://phoenixnap.com/kb/bash-commands)  
