@@ -68,4 +68,6 @@ I DevSecOps-cyklussen (se figur) hører Qodana især hjemme i disse faser:
 Kort sagt hjælper Qodana med at skabe en **kultur, hvor sikkerhed er alles ansvar** – præcis som DevSecOps-tilgangen foreskriver.
 
 
-## Aktiviteter
+## Aktiviteter  
+Arbejde med at oprete en CI pipeline i turistguide projektet med ongtegration af Qodana static analysis.  
+Vejledning i 
