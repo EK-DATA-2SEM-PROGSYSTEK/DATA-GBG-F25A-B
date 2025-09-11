@@ -17,6 +17,7 @@ Se disse videoer:
 ## Indhold
 
 ### Hvad er DevSecOps?
+<img src="assets/DevSecOps.png" alt="Alt Text" width="500">
 DevSecOps er en videreudvikling af DevOps, hvor **sikkerhed** (SEC) bliver en integreret del af hele softwarelivscyklussen – fra udvikling (DEV) til drift (OPS).  
 I stedet for at tilføje sikkerhed som en sidste kontrol, bygges sikkerhed ind i alle faser: **Plan → Build → Test → Release → Deploy → Operate → Monitor → Feedback**.
 
