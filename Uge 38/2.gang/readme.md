@@ -7,6 +7,7 @@ Det betyder at der i workflow skal:
 - eksekveres unit tests
 ## Forberedelse
 Se disse videoer:  
+[Everything you NEED to know about DevSecOps in 5 Minutes](https://www.youtube.com/watch?v=DTEaw2-Sa7I)  
 [Qodana Code Quality Platform – Overview](https://www.youtube.com/watch?v=WrhnUnzMUCg)  
 [Configure Qodana with GitHub Actions](https://www.youtube.com/watch?v=JrWQkqaXZFQ)
 
