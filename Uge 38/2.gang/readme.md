@@ -70,4 +70,4 @@ Kort sagt hjælper Qodana med at skabe en **kultur, hvor sikkerhed er alles ansv
 
 ## Aktiviteter  
 Arbejde med at oprete en CI pipeline i turistguide projektet med ongtegration af Qodana static analysis.  
-Vejledning i 
+Vejledning i [aktivering af Qodana Cloud licens](resources/Qodana Licens Aktivering F25.pdf)
