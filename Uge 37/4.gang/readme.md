@@ -176,6 +176,10 @@ Vælg Tools > Qodana > Try Code Analysis with Qodana
 
 ---
 
+## email fra Qodana
+
+---
+
 ## Aktiviteter
 
 ---
