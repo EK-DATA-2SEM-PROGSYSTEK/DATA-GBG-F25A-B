@@ -60,7 +60,7 @@ jobs:
 ```
 
 
-**Opet et nyt repository (du bestemmer sevl hvad et skal hedde)**    
+**Opet et nyt repository (du bestemmer selv hvad det skal hedde)**    
 <img src="assets/image1.jpg" alt="Alt Text" width="700">  
 
 **Opret test.yml fil**  
