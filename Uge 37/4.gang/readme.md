@@ -2,7 +2,7 @@
 
 ---
 ## Beskrivelse
-Introduktion til statisk kodeanalyse. En statisk kodeanalyse undersøger kodekvalitet uden at køre et program. 
+Introduktion til statisk kodeanalyse undersøger kodekvalitet uden at køre et program. 
 Et statisk kodeanalyseværktøj undersøger koden ud fra en række koderegler, 
 som f.eks. at metoder ikke må være alt for lange eller indeholde for komplekse algoritmer. 
 
@@ -176,7 +176,9 @@ Vælg Tools > Qodana > Try Code Analysis with Qodana
 
 ---
 
-## email fra Qodana
+### Qodana licenser
+
+[Aktivering af Qodana licenser i IntelliJ](qodana-license-aktivering.md)
 
 ---
 
