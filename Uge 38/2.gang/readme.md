@@ -2,7 +2,7 @@
 
 ## Beskrivelse
 Vi fortsætter med GitHub Actions og ser på hvad DevSecOps dækker over. Vi bruger Qodana i livscyklusen som et eksempel på et Static Application Security Testing (SAST) tool. Vi arbejder med at oprette Continuous Integration (CI) work flow på Turistguide projektet.
-Det betyder at der i workflow skal:  
+Det betyder at der i workflowet skal:  
 - udføres statisk kodeanalyse (Qodana)
 - eksekveres unit tests
 ## Forberedelse
