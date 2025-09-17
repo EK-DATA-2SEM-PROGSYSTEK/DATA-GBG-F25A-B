@@ -12,6 +12,9 @@ Se disse videoer:
 [PaaS Explained](https://www.youtube.com/watch?v=QAbqJzd0PEE)  
 [How to deploy Spring boot app to azure with GitHub actions!](https://www.youtube.com/watch?v=sbcPyaqycyI)
 
+Opret en student account på Azure:  
+[How To Sign Up for Azure for Students](https://www.youtube.com/watch?v=sbcPyaqycyI)
+
 ## Læringsmål
 - Kender begreberne: On-Prem, IaaS, PaaS, SaaS, BaaS
 - Kan deploye en Spring Boot web applikation til Azure
