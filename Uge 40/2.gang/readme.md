@@ -19,6 +19,110 @@ NB: Brug din EK microsoft account
 ## Læringsmål
 - Kender begreberne: On-Prem, IaaS, PaaS, SaaS, BaaS
 - Kan deploye en Spring Boot web applikation til Azure
-## Indhold
+## Indhold  
+
+### Hvad er Cloud Computing?
+
+Cloud computing er en teknologimodel, hvor brugere får adgang til computing-ressourcer (servere, databaser, lagring, netværk, software mm.) via internettet i stedet for at eje og administrere lokal infrastruktur.  
+
+**Karakteristika:**
+- **On-demand selvbetjening** – ressourcer kan oprettes og styres uden manuel indgriben.
+- **Bred netværksadgang** – adgang fra enhver enhed med internet.
+- **Ressourcedeling** – ressourcer deles mellem mange brugere.
+- **Elasticitet** – skaler op/ned efter behov.
+- **Pay-as-you-go** – betal kun for det du bruger.
+
+---
+
+## Ansvarsdeling: On-Prem, IaaS, PaaS, SaaS, BaaS
+
+Cloud-modellerne handler om, hvor ansvaret ligger mellem bruger og cloud-udbyder:
+
+- **On-Prem**: Alt styres selv (hardware, netværk, OS, middleware, data, app).
+- **IaaS (Infrastructure as a Service)**: Udbyder leverer virtuelle maskiner, lagring og netværk. Brugeren styrer OS, middleware og apps.  
+  Eksempler: AWS EC2, Azure Virtual Machines.
+- **PaaS (Platform as a Service)**: Udbyder leverer en platform til udvikling og hosting. Brugeren fokuserer på kode og data.  
+  Eksempler: Azure App Services, Heroku.
+- **SaaS (Software as a Service)**: Hele applikationen leveres som service.  
+  Eksempler: Office 365, Google Workspace.
+- **BaaS (Backend as a Service)**: Klar backend til mobil- og webapps med API’er.  
+  Eksempler: Firebase, AWS Amplify.
+
+Analogien med **at køre bil**:  
+- **On-Prem** = du ejer bilen og laver alt selv.  
+- **IaaS** = du lejer en bil.  
+- **PaaS** = du tager en taxa.  
+- **SaaS** = du bruger offentlig transport.  
+
+---
+
+### Azure App Service
+
+**Azure App Service** er en **PaaS-løsning** hvor du kan hoste web-, API- og mobilapps uden at styre infrastrukturen.  
+
+Fordele:
+- Hurtig deployment
+- Skalering og load balancing
+- Indbygget integration med GitHub Actions
+
+---
+
+### Deployment af en Spring Boot app til Azure
+
+#### 1. Opret en Azure Web App
+1. Log ind på [Azure Portal](https://portal.azure.com).
+2. Opret en **Resource Group** (samling af ressourcer).
+3. Vælg **App Services → Web App**.
+4. Vælg **Free F1 Plan** for at undgå omkostninger.
+5. Giv et unikt navn, fx:  
+   `springappdemo.azurewebsites.net`.
+
+#### 2. Opret GitHub Actions Workflow
+Når du forbinder dit repo til Azure via Deployment Center, oprettes en YAML-fil i `.github/workflows`.
+
+Eksempel:
+
+```yaml
+name: Build and deploy JAR app to Azure Web App - springappdemo
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Java
+        uses: actions/setup-java@v1
+        with:
+          java-version: '17'
+      - name: Build with Maven
+        run: mvn clean install
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: java-app
+          path: '${{ github.workspace }}/target/*.jar'
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: java-app
+      - name: Deploy to Azure Web App
+        uses: azure/webapps-deploy@v2
+        with:
+          app-name: 'springappdemo'
+          slot-name: 'Production'
+          package: '*.jar'
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
+
 
 ## Aktiviteter
