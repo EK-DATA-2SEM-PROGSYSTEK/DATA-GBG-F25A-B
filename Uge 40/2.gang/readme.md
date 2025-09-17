@@ -13,7 +13,8 @@ Se disse videoer:
 [How to deploy Spring boot app to azure with GitHub actions!](https://www.youtube.com/watch?v=sbcPyaqycyI)
 
 Opret en student account på Azure:  
-[How To Sign Up for Azure for Students](https://www.youtube.com/watch?v=sbcPyaqycyI)
+[How To Sign Up for Azure for Students](https://www.youtube.com/watch?v=sbcPyaqycyI)  
+NB: Brug din EK microsoft account
 
 ## Læringsmål
 - Kender begreberne: On-Prem, IaaS, PaaS, SaaS, BaaS
