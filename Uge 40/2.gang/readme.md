@@ -17,8 +17,8 @@ Opret en student account på Azure:
 NB: Brug din EK microsoft account  
 
 Ressourcer:  
-[FAQ](https://learn.microsoft.com/da-dk/azure/education-hub/azure-dev-tools-teaching/program-faq#azure-for-students)  
-[Allowed resource deployment regions](https://portal.azure.com/#view/Microsoft_Azure_Policy/AssignmentDetail.ReactView/id/%2Fsubscriptions%2Fa6560b0d-39a6-4fb3-bd29-f89cfe73c1c8%2Fproviders%2Fmicrosoft.authorization%2Fpolicyassignments%2Fsys.regionrestriction/selectedScopes~/%5B%22%2Fsubscriptions%2Fa6560b0d-39a6-4fb3-bd29-f89cfe73c1c8%22%5D)
+[Azure student subscription - FAQ](https://learn.microsoft.com/da-dk/azure/education-hub/azure-dev-tools-teaching/program-faq#azure-for-students)  
+[Azure student subscription - Allowed resource deployment regions](https://portal.azure.com/#view/Microsoft_Azure_Policy/AssignmentDetail.ReactView/id/%2Fsubscriptions%2Fa6560b0d-39a6-4fb3-bd29-f89cfe73c1c8%2Fproviders%2Fmicrosoft.authorization%2Fpolicyassignments%2Fsys.regionrestriction/selectedScopes~/%5B%22%2Fsubscriptions%2Fa6560b0d-39a6-4fb3-bd29-f89cfe73c1c8%22%5D)
 
 ## Læringsmål
 - Kender begreberne: On-Prem, IaaS, PaaS, SaaS, BaaS
