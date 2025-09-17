@@ -47,10 +47,10 @@ Cloud-modellerne handler om, hvor ansvaret ligger mellem bruger og cloud-udbyder
 - **BaaS (Backend as a Service)**: Klar backend til mobil- og webapps med API’er.  
   Eksempler: Firebase, AWS Amplify.
 
-Analogi til at **at køre bil**:  
+Analogi til **at køre bil**:  
 - **On-Prem** = du ejer bilen og står for alle udgifter: anskaffelsespris, vedligeholdelse, forsikring, brændstof / el  
 - **IaaS** = du leaser bilen og står for visse udgifter: dæk, forsikring, brændstof / el   
-- **PaaS** = Du lejer bilen og Står kun for leje, brændstof / el.
+- **PaaS** = du lejer bilen og står kun for leje, brændstof / el.
 - **SaaS** = du tager en taxa eller bruger offentlig transport.  Pay-as-you-go
 
 ---
