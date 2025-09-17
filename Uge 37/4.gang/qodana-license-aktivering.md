@@ -25,6 +25,9 @@ Klik på profile ikonet øverst til højre og vælg `Manage Account`.
 
 Ændr din email til `ditstudienummer@stud.ek.dk` og følg IntelliJ vejledningen for at bekræfte ændringen.
 
+Kontroller at emailen er ændret ved at logge ud af JetBrains kontoen og så bagefter
+logge ind på [JetBrains Account](https://account.jetbrains.com/) med `ditstudienummer@stud.ek.dk`.
+
 ---
 
 ### Aktiveringen af IntelliJ License
