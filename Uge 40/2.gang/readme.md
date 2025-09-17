@@ -15,7 +15,9 @@ Se disse videoer:
 Opret en student account på Azure:  
 [How To Sign Up for Azure for Students](https://www.youtube.com/watch?v=sbcPyaqycyI)  
 NB: Brug din EK microsoft account  
-[FAQ](https://learn.microsoft.com/da-dk/azure/education-hub/azure-dev-tools-teaching/program-faq#azure-for-students)
+
+Ressourcer:  
+[FAQ](https://learn.microsoft.com/da-dk/azure/education-hub/azure-dev-tools-teaching/program-faq#azure-for-students)  
 
 ## Læringsmål
 - Kender begreberne: On-Prem, IaaS, PaaS, SaaS, BaaS
