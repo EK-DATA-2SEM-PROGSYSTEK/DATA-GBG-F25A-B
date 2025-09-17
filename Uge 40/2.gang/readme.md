@@ -22,7 +22,6 @@ NB: Brug din EK microsoft account
 ## Indhold  
 
 ### Hvad er Cloud Computing?
-
 Cloud computing er en teknologimodel, hvor brugere får adgang til computing-ressourcer (servere, databaser, lagring, netværk, software mm.) via internettet i stedet for at eje og administrere lokal infrastruktur.  
 
 **Karakteristika:**
@@ -35,7 +34,7 @@ Cloud computing er en teknologimodel, hvor brugere får adgang til computing-res
 ---
 
 ## Ansvarsdeling: On-Prem, IaaS, PaaS, SaaS, BaaS
-
+<img src="assets/cloudmodel.png" alt="Alt Text" width="700">
 Cloud-modellerne handler om, hvor ansvaret ligger mellem bruger og cloud-udbyder:
 
 - **On-Prem**: Alt styres selv (hardware, netværk, OS, middleware, data, app).
