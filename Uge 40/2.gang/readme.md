@@ -75,10 +75,16 @@ Fordele:
 
 #### 1. Opret en Azure Web App
 1. Log ind på [Azure Portal](https://portal.azure.com).
-2. Opret en **Resource Group** (samling af ressourcer).
-3. Vælg **App Services → Web App**.
-4. Vælg **Free F1 Plan** for at undgå omkostninger.
-5. Giv et unikt navn, fx:  
+2. Vælg **Create a resource**.  
+<img src="assets/azure1.png" alt="Alt Text" width="700">
+3. Vælg **App Services → Web App**.  
+<img src="assets/azure2.png" alt="Alt Text" width="700">
+4. Opret en **Resource Group** (samling af ressourcer).  
+<img src="assets/azure3.png" alt="Alt Text" width="700">
+  
+
+6. Vælg **Free F1 Plan** for at undgå omkostninger.
+7. Giv et unikt navn, fx:  
    `springappdemo.azurewebsites.net`.
 
 #### 2. Opret GitHub Actions Workflow
