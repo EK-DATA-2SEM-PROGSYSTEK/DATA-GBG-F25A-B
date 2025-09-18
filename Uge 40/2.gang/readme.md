@@ -92,12 +92,12 @@ Vælg **Free F1 Plan** for at undgå omkostninger. (vigitgt!)
 <img src="assets/azure4.png" alt="Alt Text" width="700">
 Tryk "Review + create"
 <img src="assets/azure5.png" alt="Alt Text" width="700">
-Tryk "Create"
-
-6. Deployet app:
-Efter et stykke tid bliver appen deployed og man kan klikke "Go to resource"  
-<img src="assets/azure6.png" alt="Alt Text" width="700"> 
-<img src="assets/azure7.png" alt="Alt Text" width="700"> 
+Tryk "Create"  
+Efter et stykke tid bliver appen deployed og man kan klikke "Go to resource":    
+<img src="assets/azure6.png" alt="Alt Text" width="700">
+Nu vises appen's URL på Azure:  
+<img src="assets/azure7.png" alt="Alt Text" width="700">
+<img src="assets/azure8.png" alt="Alt Text" width="700"> 
 
    `springappdemo.azurewebsites.net`.
 
