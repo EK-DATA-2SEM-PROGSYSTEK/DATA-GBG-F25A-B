@@ -97,11 +97,21 @@ Efter et stykke tid bliver appen deployed og man kan klikke "Go to resource":
 <img src="assets/azure6.png" alt="Alt Text" width="700">
 Nu vises appen's URL på Azure:  
 <img src="assets/azure7.png" alt="Alt Text" width="700">
-<img src="assets/azure8.png" alt="Alt Text" width="700"> 
+Når man klkker på appen's URl kommer man til defualt landing page og man kan klikke på "Deployment center":  
+<img src="assets/azure8.png" alt="Alt Text" width="700">
+<img src="assets/azure9.png" alt="Alt Text" width="700">
+<img src="assets/azure10.png" alt="Alt Text" width="700">
 
-   `springappdemo.azurewebsites.net`.
+#### Opret GitHub Actions Workflow  
+I deployment center angives Github som source og herefter skal GitHub autoriseres så Azure kan oprette en workflow fil i repoet:  
 
-#### 2. Opret GitHub Actions Workflow
+<img src="assets/azure11.png" alt="Alt Text" width="700">  
+Vælg organization, repository og branch. Klik herefter på "Save":  
+<img src="assets/azure12.png" alt="Alt Text" width="700">
+
+   
+
+
 Når du forbinder dit repo til Azure via Deployment Center, oprettes en YAML-fil i `.github/workflows`.
 
 Eksempel:
