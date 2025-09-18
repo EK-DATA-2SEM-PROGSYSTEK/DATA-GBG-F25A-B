@@ -188,9 +188,9 @@ messageapp kan nu tilgås på Azure:
 
 <img src="assets/azure16.png" alt="Alt Text" width="500">  
 Det genererede workflow indeholder også build jobbet. Vi behøver derfor ikke 
-vores oprindelige build workflow. 
+vores oprindelige workflow. 
 Vi kan derfor disable det:   
-<img src="assets/azure17.png" alt="Alt Text" width="700">  
+<img src="assets/azure17.png" alt="Alt Text" width="1000">  
 Alternativt kan man angive at Azure skal flette deploy jobbet ind i et eksisterende workflow.
 
 
