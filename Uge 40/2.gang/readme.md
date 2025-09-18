@@ -112,12 +112,15 @@ Vælg organization, repository og branch. Klik herefter på "Save":
    
 
 
-Når du forbinder dit repo til Azure via Deployment Center, oprettes en YAML-fil i `.github/workflows`.
+Når du forbinder dit repo til Azure via Deployment Center, oprettes en filen: main_messageapp.yml i `.github/workflows` og jobbet starter på Github.  
 
-Eksempel:
 
 ```yaml
-name: Build and deploy JAR app to Azure Web App - springappdemo
+
+# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
+# More GitHub Actions for Azure: https://github.com/Azure/actions
+
+name: Build and deploy JAR app to Azure Web App - messageapp
 
 on:
   push:
@@ -128,16 +131,23 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read #This is required for actions/checkout
+
     steps:
       - uses: actions/checkout@v4
-      - name: Set up Java
-        uses: actions/setup-java@v1
+
+      - name: Set up Java version
+        uses: actions/setup-java@v4
         with:
-          java-version: '17'
+          java-version: '21'
+          distribution: 'microsoft'
+
       - name: Build with Maven
         run: mvn clean install
-      - name: Upload artifact
-        uses: actions/upload-artifact@v3
+
+      - name: Upload artifact for deployment job
+        uses: actions/upload-artifact@v4
         with:
           name: java-app
           path: '${{ github.workspace }}/target/*.jar'
@@ -145,18 +155,32 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     needs: build
+    permissions:
+      id-token: write #This is required for requesting the JWT
+      contents: read #This is required for actions/checkout
+  
     steps:
-      - name: Download artifact
-        uses: actions/download-artifact@v3
+      - name: Download artifact from build job
+        uses: actions/download-artifact@v4
         with:
           name: java-app
-      - name: Deploy to Azure Web App
-        uses: azure/webapps-deploy@v2
+      
+      - name: Login to Azure
+        uses: azure/login@v2
         with:
-          app-name: 'springappdemo'
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_44C834E771524BACA6DAFC4156423165 }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_6B37D42488B144458CF86343FF034A53 }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_4C74A272CE3B43F786F4F7B150A1191D }}
+
+      - name: Deploy to Azure Web App
+        id: deploy-to-webapp
+        uses: azure/webapps-deploy@v3
+        with:
+          app-name: 'messageapp'
           slot-name: 'Production'
           package: '*.jar'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
+          
+
 ```
 
 ## Aktiviteter
