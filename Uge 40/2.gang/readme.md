@@ -72,7 +72,7 @@ Fordele:
 ---
 
 ### Deployment af en Spring Boot app til Azure
-Vi deployer message appen fra uge 35.  
+Vi deployer [message appen](https://github.com/mnyborg/message) fra uge 35.  
 #### Opret en Azure Web App
 1. Log ind på [Azure Portal](https://portal.azure.com).
 2. Vælg **Create a resource** og vælg **Web App** 
@@ -187,7 +187,7 @@ jobs:
 messageapp kan nu tilgås på Azure:  
 
 <img src="assets/azure16.png" alt="Alt Text" width="500">  
-Det genererede workflow indeholder også build jobbet. Vi behøver derfor ikke 
+Det genererede workflow indeholder også build jobbet. Vi behøver således ikke 
 vores oprindelige workflow. 
 Vi kan derfor disable det:   
 <img src="assets/azure17.png" alt="Alt Text" width="1000">  
