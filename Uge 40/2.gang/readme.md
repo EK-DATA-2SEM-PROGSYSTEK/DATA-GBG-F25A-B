@@ -90,7 +90,7 @@ Hvis man vil se hordan de performer (latency test) kan man benytte [Azure Latenc
 5. Vælg **Pricing plan**  
 Vælg **Free F1 Plan** for at undgå omkostninger. (vigitgt!) 
 <img src="assets/azure4.png" alt="Alt Text" width="700">
-Tryk "create"  
+Tryk "Review + create"  
 7. Giv et unikt navn, fx:
 <img src="assets/azure5.png" alt="Alt Text" width="700">  
    `springappdemo.azurewebsites.net`.
