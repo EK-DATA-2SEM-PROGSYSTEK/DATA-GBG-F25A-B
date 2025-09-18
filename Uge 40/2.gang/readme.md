@@ -84,15 +84,21 @@ Vi deployer message appen fra uge 35.
 4. Indtast **instance details**  
 <img src="assets/azure3.png" alt="Alt Text" width="700">
   
-Bemærk: Der er kun et begrænset antal servere til rådighed i "free plan", se [Azure student subscription - Allowed resource deployment regions](https://portal.azure.com/#view/Microsoft_Azure_Policy/AssignmentDetail.ReactView/id/%2Fsubscriptions%2Fa6560b0d-39a6-4fb3-bd29-f89cfe73c1c8%2Fproviders%2Fmicrosoft.authorization%2Fpolicyassignments%2Fsys.regionrestriction/selectedScopes~/%5B%22%2Fsubscriptions%2Fa6560b0d-39a6-4fb3-bd29-f89cfe73c1c8%22%5D)  
+Bemærk: Der er kun et begrænset antal regions til rådighed i "free plan", se [Azure student subscription - Allowed resource deployment regions](https://portal.azure.com/#view/Microsoft_Azure_Policy/AssignmentDetail.ReactView/id/%2Fsubscriptions%2Fa6560b0d-39a6-4fb3-bd29-f89cfe73c1c8%2Fproviders%2Fmicrosoft.authorization%2Fpolicyassignments%2Fsys.regionrestriction/selectedScopes~/%5B%22%2Fsubscriptions%2Fa6560b0d-39a6-4fb3-bd29-f89cfe73c1c8%22%5D)  
 Hvis man vil se hordan de performer (latency test) kan man benytte [Azure Latency Test](https://www.azurespeed.com/Azure/Latency)  
 
 5. Vælg **Pricing plan**  
 Vælg **Free F1 Plan** for at undgå omkostninger. (vigitgt!) 
 <img src="assets/azure4.png" alt="Alt Text" width="700">
-Tryk "Review + create"  
-7. Giv et unikt navn, fx:
-<img src="assets/azure5.png" alt="Alt Text" width="700">  
+Tryk "Review + create"
+<img src="assets/azure5.png" alt="Alt Text" width="700">
+Tryk "Create"
+
+6. Deployet app:
+Efter et stykke tid bliver appen deployed og man kan klikke "Go to resource"  
+<img src="assets/azure6.png" alt="Alt Text" width="700"> 
+<img src="assets/azure7.png" alt="Alt Text" width="700"> 
+
    `springappdemo.azurewebsites.net`.
 
 #### 2. Opret GitHub Actions Workflow
