@@ -112,7 +112,7 @@ Vælg organization, repository og branch. Klik herefter på "Save":
    
 
 
-Når du forbinder dit repo til Azure via Deployment Center, oprettes en filen: main_messageapp.yml i `.github/workflows` og jobbet starter på Github.  
+Når du forbinder dit repo til Azure via Deployment Center, oprettes filen: main_messageapp.yml i `.github/workflows` og jobbet starter på Github.  
 
 
 ```yaml
@@ -182,5 +182,12 @@ jobs:
           
 
 ```
+<img src="assets/azure14.png" alt="Alt Text" width="700">  
+
+messageapp kan nu tilgås på Azure:  
+
+<img src="assets/azure16.png" alt="Alt Text" width="500">  
+
+
 
 ## Aktiviteter
