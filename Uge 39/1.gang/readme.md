@@ -14,7 +14,7 @@ NB! Det er vigtigt at du husker dit MySql root password, da det er meget besvær
 
 Se disse videoer (total : x):  
 [SQL - Introduction - W3Schools.com](https://www.youtube.com/watch?v=zpnHsWOy0RY). Afprøv eksemplet i videoen her [The Try-SQL Editor](https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all)  
-[SQL Course for Beginners [Full Course]](https://www.youtube.com/watch?v=7S_tz1z_5bA)
+[SQL Course for Beginners [Full Course]](https://www.youtube.com/watch?v=7S_tz1z_5bA) til 1:24
 
 Arbejd med W3Schools SQL Tutorials (til og med WHERE clause)
 
