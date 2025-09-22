@@ -12,7 +12,7 @@ Installér MySQL Server MySQL Community Server og MySQL WorkBench.
 [How to Download & Install MySQL on Windows 10/11 | Quick & Easy Tutorial](https://www.youtube.com/watch?v=AaISTiooIVU)  
 NB! Det er vigtigt at du husker dit MySql root password, da det er meget besværligt at ændre, hvis du glemmer det. 
 
-Se disse videoer (total : x):  
+Se disse videoer:  
 [SQL - Introduction - W3Schools.com](https://www.youtube.com/watch?v=zpnHsWOy0RY). Afprøv eksemplet i videoen her [The Try-SQL Editor](https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all)  
 [SQL Course for Beginners [Full Course]](https://www.youtube.com/watch?v=7S_tz1z_5bA) til 1:24
 
