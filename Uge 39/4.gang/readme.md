@@ -156,5 +156,5 @@ Enrollments
 
 
 #### Opgave: Normalisering
-(Opgave: Normalisering)[opgave-normalisering.md]
+[Opgave: Normalisering](opgave-normalisering.md)
 
