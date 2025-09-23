@@ -13,7 +13,7 @@ Se under Aktiviteter.
 
 ## Aktiviteter
 Se videoer på LinkedIn learning fra kurset [Relational Databases Essential Training](https://www.linkedin.com/learning/relational-databases-essential-training/a-brief-introduction-to-data-storage?resume=false&u=36836804).
-I skal se afsnit 1-4.
+I skal se afsnit 1, 2 og 4.
 
 Læs om [Entity Relationship Diagrams](https://www.visual-paradigm.com/guide/data-modeling/what-is-entity-relationship-diagram/)
 
