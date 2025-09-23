@@ -220,11 +220,76 @@ DDL bruges til at definere og ændre databasens struktur.
 
 
 ---
+#### Nyttige links
+
+[MySQL Tutorial](https://www.w3schools.com/mysql/)
+
+---
+
+#### DDL Eksempler
+
+```sql
+
+DROP DATABASE IF EXISTS college;
+CREATE DATABASE college
+  DEFAULT CHARACTER SET utf8mb4;
+USE college;
+
+    
+CREATE TABLE lecturer (
+                          id    INT NOT NULL AUTO_INCREMENT,
+                          email VARCHAR(255) NOT NULL UNIQUE,
+                          name  VARCHAR(150) NOT NULL,
+                          PRIMARY KEY (id)
+);
+
+
+CREATE TABLE course (
+                        id           INT NOT NULL AUTO_INCREMENT,
+                        name         VARCHAR(150) NOT NULL,
+                        lecturer_id  INT NOT NULL,
+                        PRIMARY KEY (id),
+                        FOREIGN KEY (lecturer_id) REFERENCES lecturer (id)
+                            ON UPDATE CASCADE
+                            ON DELETE RESTRICT
+);
+
+
+CREATE TABLE student (
+                         id         INT NOT NULL AUTO_INCREMENT,
+                         student_no VARCHAR(20)  NOT NULL UNIQUE,
+                         name       VARCHAR(150) NOT NULL,
+                         PRIMARY KEY (id)
+);
+
+
+CREATE TABLE enrollment (
+                            id         INT NOT NULL AUTO_INCREMENT,
+                            course_id  INT NOT NULL,
+                            student_id INT NOT NULL,
+                            PRIMARY KEY (id),
+                            FOREIGN KEY (course_id)  REFERENCES course (id)
+                                ON UPDATE CASCADE
+                                ON DELETE RESTRICT,
+                            FOREIGN KEY (student_id) REFERENCES student (id)
+                                ON UPDATE CASCADE
+                                ON DELETE RESTRICT,
+                            UNIQUE (course_id, student_id) -- prevent duplicate enrollments
+) ;
+```
+
+
+#### Opgave: DDL
+[Opgave: DDL](opgave-ddl.md)
 
 
 ## Aktiviteter
 
 
-#### Opgave: Normalisering
-(Opgave: Normalisering)[opgave-normalisering.md]
+[Opgave: Normalisering](opgave-normalisering.md)
 
+
+[Opgave: DDL](opgave-ddl.md)
+
+
+#### Opgave: Turistguide del 3 (på itsLearning)
