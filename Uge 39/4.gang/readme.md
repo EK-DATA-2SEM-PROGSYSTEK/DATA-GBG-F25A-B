@@ -273,7 +273,7 @@ CREATE TABLE enrollment (
                                 ON DELETE RESTRICT,
                             FOREIGN KEY (student_id) REFERENCES student (id)
                                 ON UPDATE CASCADE
-                                ON DELETE RESTRICT,
+                                ON DELETE CASCADE,
                             UNIQUE (course_id, student_id) -- prevent duplicate enrollments
 ) ;
 ```
