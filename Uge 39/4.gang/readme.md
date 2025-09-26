@@ -250,7 +250,6 @@ CREATE TABLE course (
                         lecturer_id  INT NOT NULL,
                         PRIMARY KEY (id),
                         FOREIGN KEY (lecturer_id) REFERENCES lecturer (id)
-                            ON UPDATE CASCADE
                             ON DELETE RESTRICT
 );
 
@@ -267,9 +266,9 @@ CREATE TABLE enrollment (
   student_id INT NOT NULL,
   PRIMARY KEY (course_id, student_id),
   FOREIGN KEY (course_id)  REFERENCES course (id)
-    ON UPDATE CASCADE ON DELETE RESTRICT,
+    ON DELETE RESTRICT,
   FOREIGN KEY (student_id) REFERENCES student (id)
-    ON UPDATE CASCADE ON DELETE CASCADE
+    ON DELETE CASCADE
 );
 
 ```
