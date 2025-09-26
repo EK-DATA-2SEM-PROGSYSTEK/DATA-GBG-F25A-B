@@ -262,20 +262,16 @@ CREATE TABLE student (
                          PRIMARY KEY (id)
 );
 
-
 CREATE TABLE enrollment (
-                            id         INT NOT NULL AUTO_INCREMENT,
-                            course_id  INT NOT NULL,
-                            student_id INT NOT NULL,
-                            PRIMARY KEY (id),
-                            FOREIGN KEY (course_id)  REFERENCES course (id)
-                                ON UPDATE CASCADE
-                                ON DELETE RESTRICT,
-                            FOREIGN KEY (student_id) REFERENCES student (id)
-                                ON UPDATE CASCADE
-                                ON DELETE CASCADE,
-                            UNIQUE (course_id, student_id) -- prevent duplicate enrollments
-) ;
+  course_id  INT NOT NULL,
+  student_id INT NOT NULL,
+  PRIMARY KEY (course_id, student_id),
+  FOREIGN KEY (course_id)  REFERENCES course (id)
+    ON UPDATE CASCADE ON DELETE RESTRICT,
+  FOREIGN KEY (student_id) REFERENCES student (id)
+    ON UPDATE CASCADE ON DELETE CASCADE
+);
+
 ```
 
 
