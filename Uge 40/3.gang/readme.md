@@ -8,4 +8,5 @@ Læs dette eksempel om [CRUD og JdbcTemplate](https://www.geeksforgeeks.org/spri
 
 - Kan bruge JdbcTemplate til CRUD applikationer
 - Kan bruge Spring Profiles
+- Kan bruge Spring properties
 - Kan bruge environment variable i forbindelse med Spring
