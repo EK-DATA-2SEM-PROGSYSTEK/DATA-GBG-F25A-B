@@ -197,3 +197,4 @@ Alternativt kan man angive at Azure skal flette deploy jobbet ind i et eksistere
 
 
 ## Aktiviteter
+Idriftsæt Turistguide 2 på Azure
