@@ -18,7 +18,6 @@ NB: Brug din EK microsoft account
 
 Ressourcer:  
 [Azure student subscription - FAQ](https://learn.microsoft.com/da-dk/azure/education-hub/azure-dev-tools-teaching/program-faq#azure-for-students)  
-[Azure student subscription - Allowed resource deployment regions](https://portal.azure.com/#view/Microsoft_Azure_Policy/AssignmentDetail.ReactView/id/%2Fsubscriptions%2Fa6560b0d-39a6-4fb3-bd29-f89cfe73c1c8%2Fproviders%2Fmicrosoft.authorization%2Fpolicyassignments%2Fsys.regionrestriction/selectedScopes~/%5B%22%2Fsubscriptions%2Fa6560b0d-39a6-4fb3-bd29-f89cfe73c1c8%22%5D)  
 [Azure Latency Test](https://www.azurespeed.com/Azure/Latency)  
 [Azure Pricing Overview](https://azure.microsoft.com/en-us/pricing)
 
@@ -85,9 +84,9 @@ Vi deployer [message appen](https://github.com/mnyborg/message) fra uge 35.
 4. Indtast **instance details**  
 <img src="assets/azure3.png" alt="Alt Text" width="700">
   
-Bemærk: Der er kun et begrænset antal regions til rådighed i "free plan", se [Azure student subscription - Allowed resource deployment regions](https://portal.azure.com/#view/Microsoft_Azure_Policy/AssignmentDetail.ReactView/id/%2Fsubscriptions%2Fa6560b0d-39a6-4fb3-bd29-f89cfe73c1c8%2Fproviders%2Fmicrosoft.authorization%2Fpolicyassignments%2Fsys.regionrestriction/selectedScopes~/%5B%22%2Fsubscriptions%2Fa6560b0d-39a6-4fb3-bd29-f89cfe73c1c8%22%5D)  
-Hvis man vil se hordan de performer (latency test) kan man benytte [Azure Latency Test](https://www.azurespeed.com/Azure/Latency)  
+Bemærk: Der er kun et begrænset antal regions til rådighed i "free plan", se Policy | Authoring | Assignments | Allowed resource deployment regions
 
+Hvis man vil se hordan de performer (latency test) kan man benytte [Azure Latency Test](https://www.azurespeed.com/Azure/Latency)   
 5. Vælg **Pricing plan**  
 Vælg **Free F1 Plan** for at undgå omkostninger. (vigitgt!) 
 <img src="assets/azure4.png" alt="Alt Text" width="700">
