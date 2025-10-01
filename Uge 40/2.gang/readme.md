@@ -49,7 +49,7 @@ Cloud-modellerne handler om, hvor ansvaret ligger mellem bruger og cloud-udbyder
   Eksempler: Azure App Services, Heroku.
 - **SaaS (Software as a Service)**: Hele applikationen leveres som service.  
   Eksempler: Office 365, Google Workspace.
-- **BaaS (Backend as a Service)**: Klar backend til mobil- og webapps med API’er.  
+- **BaaS (Backend as a Service)**: Addressere spicifikke backend behov til mobil- og webapps med API’er. (ex: database management, user authentication)  
   Eksempler: Firebase, AWS Amplify.
 
 Analogi til **at køre bil**:  
