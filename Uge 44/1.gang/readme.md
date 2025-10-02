@@ -10,7 +10,7 @@ Nøgleordene i løsning hedder “commit” og “rollback”.
 
 ## Forberedelse
 Læs om transaktioner på [Baeldung](http://www.baeldung.com/sql/mysql-transaction-management-statements).  
-Læs [denne beskrivelse](en.wikipedia.org/wiki/Database_transaction) på wiki om database transaktioner (kun til og med afsnittet “Transactional databases”.
+Læs [denne beskrivelse](http://en.wikipedia.org/wiki/Database_transaction) på wiki om database transaktioner (kun til og med afsnittet “Transactional databases”.
 
 
 ## Læringsmål
