@@ -32,7 +32,7 @@ Vi deployer en database på Azure og kigger på integration med vores Spring Boo
 
 ### Spring Profiles
 
-Spring Profiles er en måde i Spring/Spring Boot til at konfigurere appliaktionen, afhængigt af hvilket miljø den kører i.
+Spring Profiles er en måde i Spring/Spring Boot til at konfigurere en applikation, afhængigt af hvilket miljø den kører i.
 
 Der kan være forskellige konfigurationer (fx databaseforbindelse, logging, sikkerhed) til:
 - development (lokal udvikling)
