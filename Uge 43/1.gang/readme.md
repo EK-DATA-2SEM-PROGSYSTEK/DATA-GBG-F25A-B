@@ -13,7 +13,7 @@ I mini-projektet skal vi bruge Github projects til projektstyring.
 Se disse videoer om Github Projects:  
 [Issues and Projects in GitHub](https://www.youtube.com/watch?v=fFrq28RY1SQ)  
 [GitHub Issues - planning and tracking for developers | OD119](https://www.youtube.com/watch?v=DuAyYsWbt5o) (til 17:30)  
-(https://www.youtube.com/watch?v=lI_w3utYViY&list=PLEeqf0uSZqXuL4ZvZ3VYRKmlmiB8opHxi)
+[GitHub Issues Explained](https://www.youtube.com/watch?v=lI_w3utYViY&list=PLEeqf0uSZqXuL4ZvZ3VYRKmlmiB8opHxi)
 
 
 ## Læringsmål
