@@ -17,7 +17,7 @@ Se disse videoer om Github Projects:
 
 
 ## Læringsmål
-Kunne anvende Github projects, herunder Issues til tracking af Userstories og tasks.
+Kunne anvende Github projects, herunder Issues til tracking af User stories og tasks.
 
 ## Indhold
 
