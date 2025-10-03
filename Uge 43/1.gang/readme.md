@@ -8,7 +8,7 @@ Efter projektpræsentationen skal I danne projektgrupper (15 min)
 - Find inspiration fra tilsvarende apps på nettet, f.eks: https://min-oenskeseddel.dk/, https://oenskesedlen.dk/, https://onskeskyen.dk/da
 - Lav forslag til userstories for jeres "Wish list"
 
-I mini-projektet skal vi bruge Github projects til projektstyring 
+I mini-projektet skal vi bruge Github projects til projektstyring. 
 ## Forberedelse  
 Se disse videoer om Github Projects:  
 (https://www.youtube.com/watch?v=fFrq28RY1SQ)  
