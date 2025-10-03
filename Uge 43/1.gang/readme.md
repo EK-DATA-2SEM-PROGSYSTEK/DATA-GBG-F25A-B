@@ -2,12 +2,7 @@
 
 ## Beskrivelse
 Officiel start på jeres mini-projekt "Wish list".
-I bliver præsenteret for detaljerne i projektet.
-Efter projektpræsentationen skal I danne projektgrupper (15 min)
-- Diskutere oplægget i jeres studiegrupper.
-- Find inspiration fra tilsvarende apps på nettet, f.eks: https://min-oenskeseddel.dk/, https://oenskesedlen.dk/, https://onskeskyen.dk/da
-- Lav forslag til userstories for jeres "Wish list"
-
+I bliver præsenteret for detaljerne i projektet.  
 I mini-projektet skal vi bruge Github projects til projektstyring. 
 ## Forberedelse  
 Se disse videoer om Github Projects:  
@@ -22,3 +17,7 @@ Kunne anvende Github projects, herunder Issues til tracking af User stories og t
 ## Indhold
 
 ## Aktiviteter
+Efter projektpræsentationen skal I danne projektgrupper (15 min)
+- Diskutere oplægget i jeres studiegrupper.
+- Find inspiration fra tilsvarende apps på nettet, f.eks: https://min-oenskeseddel.dk/, https://oenskesedlen.dk/, https://onskeskyen.dk/da
+- Lav forslag til userstories for jeres "Wish list"
