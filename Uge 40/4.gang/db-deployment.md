@@ -47,7 +47,8 @@ søg efter den i søgefeltet øverst på siden.
 
 9. Vælg ”Settings” og herunder vælg ”Networking” 
     1. Vælg ”Allow public access from any Azure service within Azure to this server”
-   2. Vælg ”Save”
+    2. Vælg "+ Add current client IP address" (Dette skal gentages hvis klient IP adressen ændres)
+   3. Vælg ”Save”
 
 NB. Dette er meget vigtigt, ellers kan den deployede applikation ikke få adgang til databasen.
 
