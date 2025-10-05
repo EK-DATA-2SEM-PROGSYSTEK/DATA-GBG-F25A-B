@@ -114,7 +114,7 @@ Disse tre annotations bruges ofte sammen til at skabe et robust og pålideligt i
 - @Sql klargør databasen ved at køre et script, der opretter skema og indsætter testdata, så testen kan udføres mod et kendt datasæt.
 
 ## h2init.sql
-Sql initialiseringsfilen åplaceres i /test/resources mappen.
+Sql initialiseringsfilen placeres i /test/resources mappen.
 ```sql
 DROP TABLE IF EXISTS person;
 
