@@ -38,7 +38,7 @@ H2 databasen benyttes ved at inkludere denne dependency i pom.xml
 <scope>test</scope> angiver at databasen kun skal være tilgængelig i testmiljøet
 Der oprettes automatisk en database ´testdb’ med username = sa og password = ""  
 
-Eksempelprojekt: [person_h2]()
+Eksempelprojekt: [person_h2](https://github.com/EK-DATA-2SEM-PROGSYSTEK/person_h2)
 
 ### application-test.properties
 Vi laver en selvstændig apllication-test.properties i test miljøet, der indeholde opsætningsparametre for H2 databasen.  
