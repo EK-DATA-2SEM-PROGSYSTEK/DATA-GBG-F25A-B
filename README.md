@@ -70,11 +70,11 @@ Velkommen til Programmering Systemudvikling og Teknologi på 2. semester
 |     | [fredag 31-10](Uge%2044/4.gang/readme.md)                    | Fejlhåndtering i Spring Boot + evaluering               |
 |     | Projektarbejde                                               |                                                         |
 | 45  | [mandag 03-11](Uge%2045/1.gang/readme.md)                    | Wishlist - projektvejledning                            |
-|     | tirsdag 04-11                                                | Wishlist - projektvejledning                            |
-|     | onsdag 05-11                                                 | Wishlist - projektvejledning                            |
+|     | [tirsdag 04-11](Uge%2045/2.gang/readme.md)                   | Wishlist - projektvejledning                            |
+|     | [onsdag 05-11](Uge%2045/3.gang/readme.md)                    | Wishlist - projektvejledning                            |
 |     | torsdag 06-11                                                | ITF: Fremlæggelse                                      |
-|     | fredag 07-11                                                 | Afslutning Wishlist-projekt: feedback & retrospective                             |
-|     | **Eksamensprojekt**                                              |                                                         |
+|     | [fredag 07-11](Uge%2045/4.gang/readme.md)                    | Afslutning Wishlist-projekt: feedback & retrospective                             |
+|     | **Eksamensprojekt**                                          |                                                         |
 |     | Collections, readme og contribute og projektstart            |                                                         |
 | 46  | mandag 10-11                                                 | Repetition/buffer/Java Collections                      |
 |     | tirsdag 11-11                                                | Repetition/buffer/Java Collections                      |
