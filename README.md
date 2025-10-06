@@ -76,11 +76,11 @@ Velkommen til Programmering Systemudvikling og Teknologi på 2. semester
 |     | [fredag 07-11](Uge%2045/4.gang/readme.md)                    | Afslutning Wishlist-projekt: feedback & retrospective                             |
 |     | **Eksamensprojekt**                                          |                                                         |
 |     | Collections, readme og contribute og projektstart            |                                                         |
-| 46  | mandag 10-11                                                 | Repetition/buffer/Java Collections                      |
-|     | tirsdag 11-11                                                | Repetition/buffer/Java Collections                      |
-|     | onsdag 12-11                                                 | Præsentation af eksamensprojekt (Sprint 0)              |
+| 46  | [mandag 10-11](Uge%2046/1.gang/readme.md)                    | Repetition/buffer/Java Collections                      |
+|     | [tirsdag 11-11](Uge%2046/2.gang/readme.md)                   | Repetition/buffer/Java Collections                      |
+|     | [onsdag 12-11](Uge%2046/3.gang/readme.md)                    | Præsentation af eksamensprojekt (Sprint 0)              |
 |     | torsdag 13-11                                                | ITF: PO-møde                                            |
-|     | fredag 14-11                                                 | Eksamensprojekt - sprint 1 (readme og contribute)       |
+|     | [fredag 14-11](Uge%2046/4.gang/readme.md)                    | Eksamensprojekt - sprint 1 (readme og contribute)       |
 |     | Projektarbejde                                               |                                                         |
 | 47  | mandag 17-11                                                 | Eksamensprojekt - sprint 1                              |
 |     | tirsdag 18-11                                                | Eksamensprojekt - sprint 1                              |
