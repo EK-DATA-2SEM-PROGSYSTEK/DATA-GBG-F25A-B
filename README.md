@@ -57,7 +57,7 @@ Velkommen til Programmering Systemudvikling og Teknologi på 2. semester
 | 42  | Undervisningsfri                                             |                                                         |
 |     | **Miniprojekt**                                                  |                                                         |
 |     | UX/UI, GitHub Projects                                       |                                                         |
-| 43  | mandag 20-10                                                 | Kickoff - Wishlist-projekt & GitHub Projects            |
+| 43  | [mandag 20-10](Uge%2043/1.gang/readme.md)                    | Kickoff - Wishlist-projekt & GitHub Projects            |
 |     | tirsdag 21-10                                                | User interface design                                   |
 |     | onsdag 22-10                                                 | Wishlist - projektvejledning                            |
 |     | torsdag 23-10                                                | ITF: Wishlist PO - møde                                 |
