@@ -44,18 +44,18 @@ Velkommen til Programmering Systemudvikling og Teknologi på 2. semester
 |     | Jdbc, databaseintegration i Spring Boot, database deployment |                                                         |
 | 40  | mandag 29-09                                                 | ITF:                                                    |
 |     | [tirsdag 30-09](Uge%2040/1.gang/readme.md)                   | JDBCtemplate og Spring 1                                |
-|     | [onsdag 01-10](Uge%2040/2.gang/readme.md)                    | Azure deployment                                    |
+|     | [onsdag 01-10](Uge%2040/2.gang/readme.md)                    | Azure deployment                                        |
 |     | [torsdag 02-10](Uge%2040/3.gang/readme.md)                   | JDBCtemplate og Spring 2                                |
-|     | [fredag 03-10](Uge%2040/4.gang/readme.md)                    | Database deployment                                        |
+|     | [fredag 03-10](Uge%2040/4.gang/readme.md)                    | Database deployment                                     |
 |     | Testbar kode med lav kobling, interfaces, sessions           |                                                         |
-| 41  | [mandag 06-10](Uge%2041/1.gang/readme.md)                    | Integrationstest med H2 database                           |
-|     | [tirsdag 07-10](Uge%2041/2.gang/readme.md)                   | Turistguide del 3 - projektvejledning                                              |
-|     | [onsdag 08-10](Uge%2041/3.gang/readme.md)                                                 | Ingen undervisning (Digital udviklingsdag)                    |
-|     | [torsdag 09-10](Uge%2041/4.gang/readme.md)                                                | Sessions                                                |
-|     | [fredag 10-10](Uge%2041/5.gang/readme.md)                                                 | Turistguide del 3 - afslutning                          |
+| 41  | [mandag 06-10](Uge%2041/1.gang/readme.md)                    | Integrationstest med H2 database                        |
+|     | [tirsdag 07-10](Uge%2041/2.gang/readme.md)                   | Turistguide del 3 - projektvejledning                   |
+|     | [onsdag 08-10](Uge%2041/3.gang/readme.md)                    | Ingen undervisning (Digital udviklingsdag)              |
+|     | [torsdag 09-10](Uge%2041/4.gang/readme.md)                   | Sessions                                                |
+|     | [fredag 10-10](Uge%2041/5.gang/readme.md)                    | Turistguide del 3 - afslutning                          |
 |     | EFTERÅRSFERIE                                                |                                                         |
 | 42  | Undervisningsfri                                             |                                                         |
-|     | **Miniprojekt**                                                  |                                                         |
+|     | **Miniprojekt**                                              |                                                     |
 |     | UX/UI, GitHub Projects                                       |                                                         |
 | 43  | [mandag 20-10](Uge%2043/1.gang/readme.md)                    | Kickoff - Wishlist-projekt & GitHub Projects            |
 |     | [tirsdag 21-10](Uge%2043/2.gang/readme.md)                   | User interface design                                   |
@@ -63,11 +63,11 @@ Velkommen til Programmering Systemudvikling og Teknologi på 2. semester
 |     | torsdag 23-10                                                | ITF: Wishlist PO - møde                                 |
 |     | [fredag 24-10](Uge%2043/4.gang/readme.md)                    | Wishlist - projektvejledning                            |
 |     | Transaktioner, error handling                                |                                                         |
-| 44  | mandag 27-10                                                 | Databasetransaktioner                                   |
-|     | tirsdag 28-10                                                | Wishlist - projektvejledning                            |
-|     | onsdag 29-10                                                 | Wishlist - projektvejledning                            |
+| 44  | [mandag 27-10](Uge%2044/1.gang/readme.md)                    | Databasetransaktioner                                   |
+|     | [tirsdag 28-10](Uge%2044/2.gang/readme.md)                   | Wishlist - projektvejledning                            |
+|     | [onsdag 29-10](Uge%2044/3.gang/readme.md)                    | Wishlist - projektvejledning                            |
 |     | torsdag 30-10                                                | ITF: PO-møde                                            |
-|     | fredag 31-10                                                 | Fejlhåndtering i Spring Boot + evaluering               |
+|     | [fredag 31-10](Uge%2044/4.gang/readme.md)                    | Fejlhåndtering i Spring Boot + evaluering               |
 |     | Projektarbejde                                               |                                                         |
 | 45  | mandag 03-11                                                 | Wishlist - projektvejledning                            |
 |     | tirsdag 04-11                                                | Wishlist - projektvejledning                            |
