@@ -100,11 +100,11 @@ Velkommen til Programmering Systemudvikling og Teknologi på 2. semester
 |     | torsdag 04-12                                                | ITF: PO-møde                                            |
 |     | [fredag 05-12](Uge%2049/4.gang/readme.md)                    | Eksamensprojekt - sprint 2                              |
 |     | Projektarbejde                                               |                                                         |
-| 50  | mandag 08-12                                                 | Eksamensprojekt - sprint 2                              |
-|     | tirsdag 09-12                                                | Eksamensprojekt - sprint 2                              |
-|     | onsdag 10-12                                                 | Eksamensprojekt - sprint 2                              |
+| 50  | [mandag 08-12](Uge%2050/1.gang/readme.md)                    | Eksamensprojekt - sprint 2                              |
+|     | [tirsdag 09-12](Uge%2050/2.gang/readme.md)                   | Eksamensprojekt - sprint 2                              |
+|     | [onsdag 10-12](Uge%2050/3.gang/readme.md)                    | Eksamensprojekt - sprint 2                              |
 |     | torsdag 11-12                                                | ITF: Retrospective + projektvejledning                                     |
-|     | fredag 12-12                                                 | Eksamensprojekt - sprint 2                              |
+|     | [fredag 12-12](Uge%2050/4.gang/readme.md)                    | Eksamensprojekt - sprint 2                              |
 |     | Projektarbejde                                               |                                                         |
 | 51  | mandag 15-12                                                 | Rapportskrivning - afsluttende spørgsmål                |
 |     | tirsdag 16-12                                                | Eksamensprojekt - sprint 2                              |
