@@ -69,7 +69,7 @@ Velkommen til Programmering Systemudvikling og Teknologi på 2. semester
 |     | torsdag 30-10                                                | ITF: PO-møde                                            |
 |     | [fredag 31-10](Uge%2044/4.gang/readme.md)                    | Fejlhåndtering i Spring Boot + evaluering               |
 |     | Projektarbejde                                               |                                                         |
-| 45  | mandag 03-11                                                 | Wishlist - projektvejledning                            |
+| 45  | [mandag 03-11](Uge%2045/1.gang/readme.md)                    | Wishlist - projektvejledning                            |
 |     | tirsdag 04-11                                                | Wishlist - projektvejledning                            |
 |     | onsdag 05-11                                                 | Wishlist - projektvejledning                            |
 |     | torsdag 06-11                                                | ITF: Fremlæggelse                                      |
