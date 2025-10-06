@@ -8,7 +8,7 @@ Velkommen til Programmering Systemudvikling og Teknologi på 2. semester
 | Uge | Dag                                                          | Emner                                                   |
 |-----|--------------------------------------------------------------|---------------------------------------------------------|
 |     |                                                              |                                                         |
-|     | **Turistguide 1**                                                |                                                         |
+|     | **Turistguide 1**                                            |                                                         |
 |     | Spring Boot intro, HTML/CSS                                  |                                                         |
 | 35  | [mandag 25-08](Uge%2035/1.gang/readme.md)                    | Introduktion til semester og Spring Boot                |
 |     | [tirsdag 26-08](Uge%2035/2.gang/readme.md)                   | Spring Boot, HTML & CSS, Turistguide 1                  |
@@ -94,11 +94,11 @@ Velkommen til Programmering Systemudvikling og Teknologi på 2. semester
 |     | torsdag 27-11                                                | ITF: PO-møde                                            |
 |     | [fredag 28-11](Uge%2048/4.gang/readme.md)                    | Eksamensprojekt - sprint 1                              |
 |     | Projektarbejde                                               |                                                         |
-| 49  | mandag 01-12                                                 | Rapport, præsentation, eksamination                     |
-|     | tirsdag 02-12                                                | Eksamensprojekt - sprint 1                              |
-|     | onsdag 03-12                                                 | Eksamensprojekt - sprint 1                              |
+| 49  | [mandag 01-12](Uge%2049/1.gang/readme.md)                    | Rapport, præsentation, eksamination                     |
+|     | [tirsdag 02-12](Uge%2049/2.gang/readme.md)                   | Eksamensprojekt - sprint 1                              |
+|     | [onsdag 03-12](Uge%2049/3.gang/readme.md)                    | Eksamensprojekt - sprint 1                              |
 |     | torsdag 04-12                                                | ITF: PO-møde                                            |
-|     | fredag 05-12                                                 | Eksamensprojekt - sprint 2                              |
+|     | [fredag 05-12](Uge%2049/4.gang/readme.md)                    | Eksamensprojekt - sprint 2                              |
 |     | Projektarbejde                                               |                                                         |
 | 50  | mandag 08-12                                                 | Eksamensprojekt - sprint 2                              |
 |     | tirsdag 09-12                                                | Eksamensprojekt - sprint 2                              |
