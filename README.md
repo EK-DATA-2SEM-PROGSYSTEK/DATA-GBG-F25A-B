@@ -2,7 +2,7 @@
 Velkommen til Programmering Systemudvikling og Teknologi på 2. semester
 
 **Bemærk:** Alle onsdage er online gruppevejledning med check-in, på nær **24/9, 1/10, 12/11**  
-Øvruge dage med online gruppevejledning er markeret med ![online](https://img.shields.io/badge/online-red)
+Øvrige dage med online gruppevejledning er markeret med ![online](https://img.shields.io/badge/online-red)
 
 ## Lektionsplan
 
