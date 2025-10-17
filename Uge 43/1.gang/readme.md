@@ -45,14 +45,22 @@ Boardet kan have kolonner som fx:
 ### Eksempel på User Stories og Tasks – Message App  
 Repository: [message](https://github.com/EK-DATA-2SEM-PROGSYSTEK/message)  
 
+Tabellen nedenfor viser et eksempel på, hvordan man kan dokumentere **user stories** og tilhørende **tasks** i et projekt.  
+Strukturen kan bruges som grundlag for at oprette **Issues** og **Sub-issues** i GitHub, hvor hver *User Story* repræsenterer en funktionel del af systemet, og *Tasks* beskriver de konkrete udviklingsopgaver, der skal udføres.
+
 | Type | Titel | Beskrivelse |
 |------|--------|-------------|
-| **User Story** | Som bruger vil jeg kunne se alle beskeder | Så jeg kan få et overblik over tidligere beskeder |
+| **User Story** | <span style="white-space: nowrap;">Vis beskeder</span> | Som bruger vil jeg kunne se alle beskeder, så jeg kan få et overblik over tidligere beskeder |
 | Task | Implementér GET `/message` endpoint | Returnér alle beskeder som JSON |
 | Task | Opret metode `getAllMessages()` i `MessageRepository` | Returnér liste over beskeder fra repository |
-| **User Story** | Som bruger vil jeg kunne oprette en besked | Så jeg kan dele en besked med andre |
+| **User Story** | <span style="white-space: nowrap;">Opret besked</span> | Som bruger vil jeg kunne oprette en besked, så jeg kan dele en besked med andre |
 | Task | Implementér POST `/message` endpoint | Modtag besked fra bruger og gem i repository |
-| Task | Valider input | Afvis tom tek
+| Task | Valider input | Afvis tom tekst og returnér HTTP 400 |
+| **User Story** | <span style="white-space: nowrap;">Slet besked</span> | Som bruger vil jeg kunne slette en besked, så jeg kan fjerne uønsket indhold |
+| Task | Implementér DELETE `/message/{id}` | Fjern besked fra repository og returnér 204 |
+
+
+
 
 ## Aktiviteter
 Efter projektpræsentationen skal I danne projektgrupper (15 min)
