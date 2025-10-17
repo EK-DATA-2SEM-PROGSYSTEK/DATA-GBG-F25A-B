@@ -6,7 +6,16 @@ I bliver præsenteret for detaljerne i projektet.
 I mini-projektet skal vi bruge Github projects til projektstyring. 
 ## Forberedelse  
 Se disse videoer om Github Projects:  
+Overview:  
 [Issues and Projects in GitHub](https://www.youtube.com/watch?v=fFrq28RY1SQ)  
+Detaljerede forklaringer:  
+[Getting started with GitHub Projects](https://www.youtube.com/watch?v=lzpcyYIbHqE&list=PLiO7XHcmTsldZR93nkTFmmWbCEVF_8F5H&index=1)  
+[Adding existing issues to GitHub Projects](https://www.youtube.com/watch?v=Wym76EjWKZw&list=PLiO7XHcmTsldZR93nkTFmmWbCEVF_8F5H&index=2)  
+[Creating issues in GitHub Projects](https://www.youtube.com/watch?v=-xM2MT0Nv8k&list=PLiO7XHcmTsldZR93nkTFmmWbCEVF_8F5H&index=3)  
+[DevOps Bytes - Using the iteration field with GitHub Projects](https://www.youtube.com/watch?v=iFrJs8abTWg&list=PLiO7XHcmTsldZR93nkTFmmWbCEVF_8F5H&index=4)  
+[DevOps Bytes - Create a priority field with GitHub Projects](https://www.youtube.com/watch?v=ZzXsmsfdJKM&list=PLiO7XHcmTsldZR93nkTFmmWbCEVF_8F5H&index=5)  
+[DevOps Bytes - Custom views with GitHub Projects](https://www.youtube.com/watch?v=28Hr5zxsPl8&list=PLiO7XHcmTsldZR93nkTFmmWbCEVF_8F5H&index=6)  
+
 
 [GitHub Issues Explained](https://www.youtube.com/watch?v=lI_w3utYViY&list=PLEeqf0uSZqXuL4ZvZ3VYRKmlmiB8opHxi)
 
