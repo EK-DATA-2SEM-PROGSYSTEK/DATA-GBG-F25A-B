@@ -15,6 +15,7 @@ Detaljerede forklaringer:
 [DevOps Bytes - Using the iteration field with GitHub Projects](https://www.youtube.com/watch?v=iFrJs8abTWg&list=PLiO7XHcmTsldZR93nkTFmmWbCEVF_8F5H&index=4)  
 [DevOps Bytes - Create a priority field with GitHub Projects](https://www.youtube.com/watch?v=ZzXsmsfdJKM&list=PLiO7XHcmTsldZR93nkTFmmWbCEVF_8F5H&index=5)  
 [DevOps Bytes - Custom views with GitHub Projects](https://www.youtube.com/watch?v=28Hr5zxsPl8&list=PLiO7XHcmTsldZR93nkTFmmWbCEVF_8F5H&index=6)  
+[https://www.youtube.com/watch?v=F42FN6cZmA4&list=PLiO7XHcmTsldZR93nkTFmmWbCEVF_8F5H&index=8](https://www.youtube.com/watch?v=F42FN6cZmA4&list=PLiO7XHcmTsldZR93nkTFmmWbCEVF_8F5H&index=8)  
 
 
 [GitHub Issues Explained](https://www.youtube.com/watch?v=lI_w3utYViY&list=PLEeqf0uSZqXuL4ZvZ3VYRKmlmiB8opHxi)
