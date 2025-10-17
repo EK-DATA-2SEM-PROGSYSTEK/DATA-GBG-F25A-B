@@ -42,6 +42,18 @@ Boardet kan have kolonner som fx:
 - In progress – opgaver i gang
 - Done – færdige opgaver
 
+### Eksempel på User Stories og Tasks – Message App  
+Repository: [message](https://github.com/EK-DATA-2SEM-PROGSYSTEK/message)  
+
+| Type | Titel | Beskrivelse |
+|------|--------|-------------|
+| **User Story** | Som bruger vil jeg kunne se alle beskeder | Så jeg kan få et overblik over tidligere beskeder |
+| Task | Implementér GET `/message` endpoint | Returnér alle beskeder som JSON |
+| Task | Opret metode `getAllMessages()` i `MessageRepository` | Returnér liste over beskeder fra repository |
+| **User Story** | Som bruger vil jeg kunne oprette en besked | Så jeg kan dele en besked med andre |
+| Task | Implementér POST `/message` endpoint | Modtag besked fra bruger og gem i repository |
+| Task | Valider input | Afvis tom tek
+
 ## Aktiviteter
 Efter projektpræsentationen skal I danne projektgrupper (15 min)
 - Diskutere oplægget i jeres studiegrupper.
