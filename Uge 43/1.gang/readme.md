@@ -69,4 +69,7 @@ Strukturen kan bruges som grundlag for at oprette **Issues** og **Sub-issues** i
 Efter projektpræsentationen skal I danne projektgrupper (15 min)
 - Diskutere oplægget i jeres studiegrupper.
 - Find inspiration fra tilsvarende apps på nettet, f.eks: https://min-oenskeseddel.dk/, https://oenskesedlen.dk/, https://onskeskyen.dk/da
+- lav orgnisations github
+- opret et repo og et tihørende project
 - Lav forslag til userstories for jeres "Wish list"
+- læg ueerstories i backlog i projects (table view)
