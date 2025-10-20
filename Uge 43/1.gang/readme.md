@@ -45,6 +45,8 @@ Boardet kan have kolonner som fx:
 - In progress – opgaver i gang
 - Done – færdige opgaver
 
+Kollonnerne er baseret på værdier i status field, som kan konfigureres i settings 
+
 ### Eksempel på User Stories og Tasks – Message App  
 Repository: [message](https://github.com/EK-DATA-2SEM-PROGSYSTEK/message)  
 
