@@ -73,4 +73,4 @@ Efter projektpræsentationen skal I danne projektgrupper (15 min)
 - Definér issue types i organisationen
 - Opret et repo og et tihørende project
 - Lav forslag til userstories for jeres "Wish list"
-- Læg ueerstories i backlog i projects (table view)
+- Læg userstories i backlog i projects (table view)
