@@ -70,6 +70,7 @@ Efter projektpræsentationen skal I danne projektgrupper (15 min)
 - Diskutere oplægget i jeres studiegrupper.
 - Find inspiration fra tilsvarende apps på nettet, f.eks: https://min-oenskeseddel.dk/, https://oenskesedlen.dk/, https://onskeskyen.dk/da
 - Lav orgnisations github
+- Definér issue types i organisationen
 - Opret et repo og et tihørende project
 - Lav forslag til userstories for jeres "Wish list"
 - Læg ueerstories i backlog i projects (table view)
