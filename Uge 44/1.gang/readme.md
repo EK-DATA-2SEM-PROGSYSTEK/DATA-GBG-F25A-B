@@ -17,6 +17,7 @@ Læs [denne beskrivelse](http://en.wikipedia.org/wiki/Database_transaction) på 
 
 
 ## Læringsmål
+- At forstå og anvende transaktioner i databasen.
 
 ## Indhold
 
