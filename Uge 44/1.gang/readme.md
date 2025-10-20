@@ -9,6 +9,9 @@ Nøgleordene i løsning hedder “commit” og “rollback”.
 
 
 ## Forberedelse
+Se denne video:  
+[What is a Database Transaction? Be ACID compliant!](https://www.youtube.com/watch?v=wHUOeXbZCYA)  
+
 Læs om transaktioner på [Baeldung](http://www.baeldung.com/sql/mysql-transaction-management-statements).  
 Læs [denne beskrivelse](http://en.wikipedia.org/wiki/Database_transaction) på wiki om database transaktioner (kun til og med afsnittet “Transactional databases”.
 
