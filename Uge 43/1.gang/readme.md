@@ -39,7 +39,7 @@ Et issue bruges til at beskrive et stykke arbejde, typisk en user story, en feat
 ### Sub-issues (Tasks)
 Et issue kan opdeles i mindre tasks, enten som afkrydsningsfelter i beskrivelsen eller som selvstændige issues, der linkes til hoved-issuet.  
 ### Project Board
-Et Project i GitHub fungerer som en visuel kanban-tavle, hvor du kan følge arbejdet fra idé til færdigt resultat.
+Et Project i GitHub fungerer som en visuel Scrum-tavle, hvor du kan følge arbejdet fra idé til færdigt resultat.
 Boardet kan have kolonner som fx:
 - To do – opgaver der skal laves
 - In progress – opgaver i gang
