@@ -1,5 +1,3 @@
-# Vejledning på Wishlist projekt
+# Fejlhåndtering i Spring Boot + evaluering
 
 ## Beskrivelse
-I dag skal I arbejde på Wishlist projektet.  
-Der er fysisk åben vejledning i klasselokalet.
