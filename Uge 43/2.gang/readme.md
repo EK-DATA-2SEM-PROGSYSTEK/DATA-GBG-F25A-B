@@ -12,7 +12,10 @@ UI Design-processen indeholder flere elementer:
 
 
 # Læringsmål
- - Anvende fagområdets principper og teknikker til design af brugergrænseflader, herunder Shneidermans Golden Rules og Jakob Nielsens heuristikker for brugergrænsefladedesign.
+- At kunne forklare begrebet User Experience
+- At kunne forklare hvordan UI design påvirker UX
+- At kunne anvende relevante principper og teknikker til at design
+brugergrænseflader, herunder Shneidermans Golden Rules og Jakob Nielsens heuristikker for brugergrænsefladedesign.
 
 # Forberedelse
 
