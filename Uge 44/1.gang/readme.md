@@ -128,7 +128,7 @@ Hvad sker der her?
 
 ### Sammanligning  
 
-| Egenskab | Manuel styring med `Connection` | Automatisk styring med `@Transactional` |
+| Egenskab | Manuel styring med `DataSourceTransactionManager` | Automatisk styring med `@Transactional` |
 |-----------|--------------------------------|-----------------------------------------|
 | **Kontrol** | Fuld kontrol over `commit` og `rollback` | Spring håndterer transaktionen automatisk |
 | **Fejl-håndtering** | Skal skrives manuelt med `try/catch` og `rollback()` | Automatisk rollback ved `RuntimeException` |
