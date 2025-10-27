@@ -41,53 +41,56 @@ De fire grundlæggende egenskaber ved en transaktion kaldes **ACID**:
 
 ### Eksempel: Overfør penge mellem to konti
 
-I dette eksempel anvender vi `JdbcTemplate` og `Connection` til manuelt at styre transaktionen.  
+I dette eksempel anvender vi `JdbcTemplate` og `DataSourceTransactionManager` til manuelt at styre transaktionen.  
 Hvis overførslen til den ene konto fejler, rulles hele transaktionen tilbage.
 
 ```java
+package com.example.demo.bank;
+
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.datasource.DataSourceTransactionManager;
+import org.springframework.stereotype.Repository;
+import org.springframework.transaction.TransactionStatus;
+import org.springframework.transaction.support.DefaultTransactionDefinition;
+
 @Repository
 public class BankRepository {
 
-    private final DataSource dataSource;
+    private final JdbcTemplate jdbcTemplate;
+    private final DataSourceTransactionManager transactionManager;
 
-    public BankRepository(DataSource dataSource) {
-        this.dataSource = dataSource;
+    public BankRepository(JdbcTemplate jdbcTemplate, DataSourceTransactionManager transactionManager) {
+        this.jdbcTemplate = jdbcTemplate;
+        this.transactionManager = transactionManager;
     }
 
     public void transferMoney(int fromAccountId, int toAccountId, double amount) {
         String withdrawSql = "UPDATE account SET balance = balance - ? WHERE id = ?";
         String depositSql = "UPDATE account SET balance = balance + ? WHERE id = ?";
 
-        try (Connection conn = dataSource.getConnection()) {
-            conn.setAutoCommit(false); // start transaktion
+        // Start en ny transaktion
+        TransactionStatus status = transactionManager.getTransaction(new DefaultTransactionDefinition());
 
-            try (PreparedStatement withdrawStmt = conn.prepareStatement(withdrawSql);
-                 PreparedStatement depositStmt = conn.prepareStatement(depositSql)) {
+        try {
+            // Træk beløb fra afsender
+            jdbcTemplate.update(withdrawSql, amount, fromAccountId);
 
-                // Træk beløb fra afsender
-                withdrawStmt.setDouble(1, amount);
-                withdrawStmt.setInt(2, fromAccountId);
-                withdrawStmt.executeUpdate();
+            // Indsæt beløb på modtager
+            jdbcTemplate.update(depositSql, amount, toAccountId);
 
-                // Indsæt beløb på modtager
-                depositStmt.setDouble(1, amount);
-                depositStmt.setInt(2, toAccountId);
-                depositStmt.executeUpdate();
+            // Commit transaktionen hvis alt lykkes
+            transactionManager.commit(status);
+            System.out.println("Transaktion gennemført!");
 
-                conn.commit(); // hvis alt lykkes
-                System.out.println("Transaktion gennemført!");
-
-            } catch (SQLException e) {
-                conn.rollback(); // hvis der opstår fejl
-                System.err.println("Fejl! Transaktion rullet tilbage.");
-                throw e;
-            }
-
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
+        } catch (Exception e) {
+            // Rul tilbage ved fejl
+            transactionManager.rollback(status);
+            System.err.println("Fejl! Transaktion rullet tilbage.");
+            throw new RuntimeException("Fejl under pengeoverførsel", e);
         }
     }
 }
+
 ```
 
 ### Transaktioner med @Transactional annotation
