@@ -10,7 +10,7 @@ Se disse to videoer:
 
 I den første video skal I kun se indtil 6.10 - dvs til og med "Recap cookies and sessions" (resten er 3. semesterstof).
 
-[Difference between cokies, session, and tokens](https://www.youtube.com/watch?v=GhrvZ5nUWNg&list=PLEeqf0uSZqXug25YGsiEkSm9qRzby6oiA&index=75&t=63s)
+[Difference between cookies, session, and tokens](https://www.youtube.com/watch?v=GhrvZ5nUWNg&list=PLEeqf0uSZqXug25YGsiEkSm9qRzby6oiA&index=75&t=63s)
 
 [Sessions & cookies](https://www.youtube.com/watch?v=64veb6tKTm0&list=PLEeqf0uSZqXuIH_1uCdkbQcM3ePK0F9DV&index=11)
 
