@@ -56,6 +56,9 @@ src/
             └── error.html
 ```
 
+---
+
+
 ### Custom Exceptions
 
 Ved at implementere custom exceptions (som nedarver fra fx RuntimeException) 
@@ -96,6 +99,9 @@ Denne exception kan fanges i service-laget og omsættes til en DuplicateProfileE
     }
 ```
 
+---
+
+
 ### Global Fejlhåndtering med ```@ControllerAdvice```
 
 ```@ControllerAdvice``` er en Spring-annotation, der bruges til at gruppere globale fejlhåndteringsmekanismer ét centralt sted.
@@ -128,6 +134,8 @@ public class GlobalExceptionHandler {
         return "error/error";
     }
 ```
+
+---
 
 
 ## Aktiviteter
