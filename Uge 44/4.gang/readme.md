@@ -142,4 +142,6 @@ public class GlobalExceptionHandler {
 
 [Opgave: Fejlhåndtering i Spring Boot](opgave-fejlhåndtering.md)
 
+Fejlhåndtering i projektet
+
 Delphi undersøgelse
