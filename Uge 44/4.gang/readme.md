@@ -140,7 +140,7 @@ public class GlobalExceptionHandler {
 
 ## Aktiviteter
 
-[Opgave: Fejlhåndtering i Spring Boot](opgave-fejlh%C3%A5ndtering.md)
+[Opgave: Fejlhåndtering i Spring Boot](opgave-fejlhaandtering.md)
 
 Fejlhåndtering i projektet
 
