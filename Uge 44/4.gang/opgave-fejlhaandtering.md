@@ -23,13 +23,13 @@ som findes i projektets resources mappe for at oprette en lokale database og ind
 #### Fejlhåndtering
 
 5. Ændr urlen i browseren til `http://localhost:8080/profile` og observer resultatet. Forklar til hinanden hvordan fejlen
-håndters i koden.
+håndteres i koden.
 
 6. Ændr urlen tilbage til `http://localhost:8080/profiles` og opret en ny profil ved at klikke på `Create New Profile` knappen.
 Indtast navnet "Freja Hansen" en email adresse og klik `Save`. Observer resultatet og forklar til hinanden hvordan fejlen
-håndters i koden.
+håndteres i koden.
 
 7. Ændr urlen i browseren til http://localhost:8080/profiles/9/edit . Observer resultatet og forklar til hinanden hvordan fejlen
-   håndters i koden.
+   håndteres i koden.
 
 
