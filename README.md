@@ -78,7 +78,7 @@ Velkommen til Programmering Systemudvikling og Teknologi på 2. semester
 |     | **Eksamensprojekt**                                          |                                                         |
 |     | Collections, readme og contribute og projektstart            |                                                         |
 | 46  | [mandag 10-11](Uge%2046/1.gang/readme.md)                    | Java Collections Framework (og Wishlist projekt feedback fortsat)                     |
-|     | [tirsdag 11-11](Uge%2046/2.gang/readme.md)                   | Repetition/buffer/Java Collections                      |
+|     | [tirsdag 11-11](Uge%2046/2.gang/readme.md)                   | Repetition                      |
 |     | [onsdag 12-11](Uge%2046/3.gang/readme.md)                    | Præsentation af eksamensprojekt (Sprint 0)              |
 |     | torsdag 13-11                                                | ITF: PO-møde                                            |
 |     | [fredag 14-11](Uge%2046/4.gang/readme.md)                    | Eksamensprojekt - sprint 1 (readme og contribute)       |
