@@ -2,7 +2,7 @@
 
 ## Beskrivelse
 
-Vi skal lave en README.md og CONTRIBUTING.md fil til eksamensprojektet.
+Vi skal lave en README.md og CONTRIBUTING.md fil til eksamensprojektet. Derefter er der projektvejledning efter behov.
 
 ## Læringsmål
 
