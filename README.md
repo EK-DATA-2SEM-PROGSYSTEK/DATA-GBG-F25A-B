@@ -95,7 +95,7 @@ Velkommen til Programmering Systemudvikling og Teknologi på 2. semester
 |     | torsdag 27-11                                                | ITF: PO-møde                                            |
 |     | [fredag 28-11](Uge%2048/4.gang/readme.md)                    | Eksamensprojekt - sprint 1                              |
 |     | Projektarbejde                                               |                                                         |
-| 49  | [mandag 01-12](Uge%2049/1.gang/readme.md)                    | Eksamensprojekt - sprint 1                     |
+| 49  | [mandag 01-12](Uge%2049/1.gang/readme.md) ![online](https://img.shields.io/badge/online-red)                   | Eksamensprojekt - sprint 1                     |
 |     | [tirsdag 02-12](Uge%2049/2.gang/readme.md)                   | Eksamensprojekt - sprint 1                              |
 |     | [onsdag 03-12](Uge%2049/3.gang/readme.md)                    | Eksamensprojekt - sprint 1                              |
 |     | torsdag 04-12                                                | ITF: PO-møde                                            |
