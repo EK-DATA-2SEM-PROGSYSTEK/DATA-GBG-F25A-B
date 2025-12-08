@@ -20,4 +20,6 @@ Læs om tænke-højt-test [her](https://www.nngroup.com/articles/thinking-aloud-
 
 ### Hvorfor laver man usability tests?
 
+<img src="why_usability_test.png" alt="Why usability test" width="700">
+
 
