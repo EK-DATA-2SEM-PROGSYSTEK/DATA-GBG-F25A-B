@@ -22,4 +22,7 @@ Læs om tænke-højt-test [her](https://www.nngroup.com/articles/thinking-aloud-
 
 <img src="why_usability_test.png" alt="Why usability test" width="700">
 
+### Elementerne i en usability test
 
+
+<img src="core_elements_usability_testing.png" alt="Core elements" width="700">
