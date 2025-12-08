@@ -22,6 +22,10 @@ Læs om tænke-højt-test [her](https://www.nngroup.com/articles/thinking-aloud-
 
 <img src="why_usability_test.png" alt="Why usability test" width="700">
 
+### Hvornår laver man usability tests?
+
+
+
 ### Elementerne i en usability test
 
 
@@ -29,3 +33,7 @@ Læs om tænke-højt-test [her](https://www.nngroup.com/articles/thinking-aloud-
 
 
 ### Deltagerne
+
+- realistiske deltagere
+
+- 5 testpersoner i alt er ideelt
