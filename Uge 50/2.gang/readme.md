@@ -24,7 +24,7 @@ Læs om tænke-højt-test [her](https://www.nngroup.com/articles/thinking-aloud-
 
 ### Hvornår laver man usability tests?
 
-
+<img src="designthinking_illustration_final-01-01.png" alt="Design Thinking" width="700">
 
 ### Elementerne i en usability test
 
