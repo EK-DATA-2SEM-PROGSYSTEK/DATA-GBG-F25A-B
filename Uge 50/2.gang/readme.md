@@ -10,7 +10,7 @@ Læs om usability testing [her](https://www.nngroup.com/articles/usability-testi
 
 Se video om usability testing (2 min) [her](https://www.youtube.com/watch?v=n8MnoJyl3W4)
 
-Læs om tænke-højt-test [her](https://www.nngroup.com/articles/thinking-aloud-the-1-usability-tool/https://www.nngroup.com/articles/thinking-aloud-the-1-usability-tool/)
+Læs om tænke-højt-test [her](https://www.nngroup.com/articles/thinking-aloud-the-1-usability-tool)
 
 ## Læringsmål
 
