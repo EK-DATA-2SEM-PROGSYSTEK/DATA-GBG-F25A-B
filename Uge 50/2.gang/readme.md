@@ -33,6 +33,6 @@ Læs om tænke-højt-test [her](https://www.nngroup.com/articles/thinking-aloud-
 
 ### Hvordan kan man bearbejde de observationer man får under testen?
 
-Se et eksempel i [denne video](https://www.youtube.com/watch?v=uG_JrhMG-_U)
+Se et eksempel i [denne video](https://www.youtube.com/watch?v=uG_JrhMG-_U), fra 5.25.
 
 
