@@ -36,4 +36,4 @@ Læs om tænke-højt-test [her](https://www.nngroup.com/articles/thinking-aloud-
 
 - realistiske deltagere
 
-- 5 testpersoner i alt er ideelt
+- 5 testpersoner er ideelt
