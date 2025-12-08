@@ -26,3 +26,6 @@ Læs om tænke-højt-test [her](https://www.nngroup.com/articles/thinking-aloud-
 
 
 <img src="core_elements_usability_testing.png" alt="Core elements" width="700">
+
+
+### Deltagerne
