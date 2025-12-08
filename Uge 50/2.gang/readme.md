@@ -15,3 +15,9 @@ Læs om tænke-højt-test [her](https://www.nngroup.com/articles/thinking-aloud-
 ## Læringsmål
 
 - at kunne udføre en usability test med tænke-højt-metoden
+
+## Indhold
+
+### Hvorfor laver man usability tests?
+
+
