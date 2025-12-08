@@ -31,4 +31,8 @@ Læs om tænke-højt-test [her](https://www.nngroup.com/articles/thinking-aloud-
 
 <img src="core_elements_usability_testing.png" alt="Core elements" width="700">
 
+### Hvordan kan man bearbejde de observationer man får under testen?
+
+Se et eksempel i [denne video](https://www.youtube.com/watch?v=uG_JrhMG-_U)
+
 
