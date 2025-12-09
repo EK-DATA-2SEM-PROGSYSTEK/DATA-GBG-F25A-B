@@ -40,6 +40,10 @@ Se videoen [1st Pillar of usability testing: Typical users](https://www.youtube.
 
 Se videoen [2nd Pillar of usability testing: Appropriate tasks](https://www.youtube.com/watch?v=dkKS6aKEC6M)
 
+### Hvordan er man en god facilitator?
+
+Se videoen [3rd Pillar of usability testing: Skilled facilitator](https://www.youtube.com/watch?v=h-jsE0oyyYo)
+
 ### Hvordan kan man bearbejde de observationer man får under testen?
 
 Se et eksempel i [denne video](https://www.youtube.com/watch?v=uG_JrhMG-_U), fra 5.25.
