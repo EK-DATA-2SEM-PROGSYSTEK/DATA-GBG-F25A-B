@@ -11,7 +11,7 @@ I denne opgave skal I arbejde sammen parvis.
 
 3. Når I har lavet jeres tasks, skal I sætte jer sammen med et andet par. Det er meningen at I skal være hinandens testdeltagere, sådan at én fra det ene par er facilitator, og en fra det andet par er testdeltager.
 
-4. I en rigtig testsituation ville man nu sørge for at forklare testen, og instruere brugeren i hvad der skal ske, og evt. spørge om lov til at optage.
+4. I en rigtig testsituation ville man nu sørge for at forklare testen, og instruere brugeren i hvad der skal ske, og evt. spørge om lov til at optage. Se evt. i denne [artikel på NNGroups side](https://www.nngroup.com/articles/usability-checklist/?lm=usability-test-mistakes&pt=youtubevideo) hvilke ting man typisk sørger for at gøre for at facilitere en test.
 
 
 4. Udfør selve tænke-højt-testen. Sørg for at notere observationerne ned i forhold til hvad testpersonen gør og siger under løsningen af testopgaverne. Det kan godt føles lidt kunstigt at være testpersonen der skal tænke højt. Facilitatorens rolle er også fyldt med faldgruber som kan ende med at påvirke resultatet.  Check evt. [denne artikel](https://www.nngroup.com/articles/leading-questions/?lm=usability-test-mistakes&pt=youtubevideo) og [denne artikel](https://www.nngroup.com/articles/talking-to-users/) (med tilhørende video) ud før I går i gang
