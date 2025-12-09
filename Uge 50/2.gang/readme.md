@@ -31,6 +31,10 @@ Læs om tænke-højt-test [her](https://www.nngroup.com/articles/thinking-aloud-
 
 <img src="core_elements_usability_testing.png" alt="Core elements" width="700">
 
+### Hvordan udvælger man test-deltagere?
+
+Se videoen [1st Pillar of usability testing: Typical users](https://www.youtube.com/watch?v=o29up51Sxs8)
+
 ### Hvordan kan man bearbejde de observationer man får under testen?
 
 Se et eksempel i [denne video](https://www.youtube.com/watch?v=uG_JrhMG-_U), fra 5.25.
