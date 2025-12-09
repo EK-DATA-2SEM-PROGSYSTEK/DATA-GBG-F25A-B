@@ -107,7 +107,7 @@ Velkommen til Programmering Systemudvikling og Teknologi på 2. semester
 |     | torsdag 11-12                                                | ITF: Retrospective + projektvejledning                                     |
 |     | [fredag 12-12](Uge%2050/4.gang/readme.md)                    | Eksamensprojekt - sprint 2                              |
 |     | Projektarbejde                                               |                                                         |
-| 51  | [mandag 15-12](Uge%2051/1.gang/readme.md)                    | Eksamensprojekt - sprint 2 - afsluttende spørgsmål                |
+| 51  | [mandag 15-12](Uge%2051/1.gang/readme.md) ![online](https://img.shields.io/badge/online-red)                     | Eksamensprojekt - sprint 2 - afsluttende spørgsmål                |
 |     | [tirsdag 16-12](Uge%2051/2.gang/readme.md)                   | Eksamensprojekt - sprint 2                              |
 |     | [onsdag 17-12](Uge%2051/3.gang/readme.md)                    | Eksamensprojekt - sprint 2                              |
 |     | torsdag 18-12                                                |                                                         |
