@@ -1,6 +1,6 @@
 # Spring boot Github action workflow
 
-Vi skal lave vores første Gitbuh workflow for et Spring boot projekt. Projektet er [message eksemplet](https://github.com/EK-DATA-2SEM-PROGSYSTEK/DATA-GBG-F25A-/blob/master/Uge%2035/1.gang/opgave.md) fra uge 35
+Vi skal lave vores første Gitbuh workflow for et Spring boot projekt. Projektet er [message eksemplet](/Uge%2035/1.gang/opgave.md) fra uge 35
 
 ## Gihub repository
 
